@@ -24,8 +24,7 @@ public class Character_Movement : MonoBehaviour {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= speed;
-
-
+            moveDirection.y = 0;
         }
 
         moveDirection.y -= gravity * Time.deltaTime;
