@@ -1,14 +1,10 @@
-﻿using UnityEngine;
-using System.Collections;
-
-public class LoadOnClick : MonoBehaviour
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public class ExitOnClick : MonoBehaviour
 {
-
-    public GameObject loadingImage;
-
-    public void LoadScene(int level)
+    public void ExitGame()
     {
-        loadingImage.SetActive(true);
-        Application.LoadLevel(level);
+        Application.Quit();
     }
 }
