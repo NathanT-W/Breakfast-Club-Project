@@ -17,6 +17,7 @@ public class Character_Movement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void OnGUI() {
