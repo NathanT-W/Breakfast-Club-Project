@@ -826,7 +826,7 @@ GameObject:
   - component: {fileID: 1188574004}
   - component: {fileID: 1188574003}
   m_Layer: 0
-  m_Name: Asset_Model_Door001 (1)
+  m_Name: Asset_Model_Door002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
