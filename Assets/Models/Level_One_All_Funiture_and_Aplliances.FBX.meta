@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 61b4dba7ff6d95a489a0f94736f21620
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Asset_Food_Model_Cooked_Bacon001
+    100002: Asset_Food_Model_Egg001
+    100004: Asset_Food_Model_Fried_Egg001
+    100006: Asset_Food_Model_Milk001
+    100008: Asset_model_Bowl001
+    100010: Asset_Model_Ceiling_Extractor002
+    100012: Asset_Model_Ceiling_Light003
+    100014: Asset_Model_Ceiling_Light004
+    100016: Asset_Model_Cereal_Box001
+    100018: Asset_Model_Cereal_Piece001
+    100020: Asset_Model_Customer_Table_and_Chairs004
+    100022: Asset_Model_Customer_Table_and_Chairs005
+    100024: Asset_Model_Customer_Table_and_Chairs006
+    100026: Asset_Model_Customer_Table_and_Chairs007
+    100028: Asset_Model_Door001
+    100030: Asset_Model_Frying_Pan001
+    100032: Asset_Model_Kettle001
+    100034: Asset_Model_Kettle_Top001
+    100036: Asset_Model_Kitchen_Under_Table002
+    100038: Asset_Model_Kitchen_Under_Table003
+    100040: Asset_Model_Mug001
+    100042: Asset_Model_Oven_Closed007
+    100044: Asset_Model_Oven_Closed008
+    100046: Asset_Model_Oven_Closed009
+    100048: Asset_Model_Oven_Closed010
+    100050: Asset_Model_Plate001
+    100052: Asset_Model_Refrigerator003
+    100054: Asset_Model_Refrigerator004
+    100056: Asset_Model_Sink001
+    100058: Asset_Model_Table002
+    100060: Asset_model_Tea_Cup001
+    100062: Asset_Model_Time_Body001
+    100064: Asset_Model_Timer_Clock001
+    100066: Asset_Model_Top_Corner_Cupboard001
+    100068: Asset_Model_Top_Cupboard001
+    100070: Asset_Model_TS_Book_Of_M001
+    100072: Asset_Model_TS_Car001
+    100074: Asset_Model_TS_Mint001
+    100076: Asset_Model_TS_Protien_Bag001
+    100078: Design_One_Cereal_Box_One002
+    100080: Design_One_Cereal_Box_Two002
+    100082: //RootNode
+    100084: Level_One_Map_layout001
+    100086: Model_Apple001
+    100088: Model_Asset_Floor_Cupboard_002
+    100090: Model_Blender_Bottom001
+    100092: Model_Blender_Top001
+    100094: Model_Bread001
+    100096: Model_Bread_Slice001
+    100098: Model_Toaster001
+    100100: Model_Top_Floor_Cupboard_003
+    100102: Model_Uncooked_Bacon001
+    400000: Asset_Food_Model_Cooked_Bacon001
+    400002: Asset_Food_Model_Egg001
+    400004: Asset_Food_Model_Fried_Egg001
+    400006: Asset_Food_Model_Milk001
+    400008: Asset_model_Bowl001
+    400010: Asset_Model_Ceiling_Extractor002
+    400012: Asset_Model_Ceiling_Light003
+    400014: Asset_Model_Ceiling_Light004
+    400016: Asset_Model_Cereal_Box001
+    400018: Asset_Model_Cereal_Piece001
+    400020: Asset_Model_Customer_Table_and_Chairs004
+    400022: Asset_Model_Customer_Table_and_Chairs005
+    400024: Asset_Model_Customer_Table_and_Chairs006
+    400026: Asset_Model_Customer_Table_and_Chairs007
+    400028: Asset_Model_Door001
+    400030: Asset_Model_Frying_Pan001
+    400032: Asset_Model_Kettle001
+    400034: Asset_Model_Kettle_Top001
+    400036: Asset_Model_Kitchen_Under_Table002
+    400038: Asset_Model_Kitchen_Under_Table003
+    400040: Asset_Model_Mug001
+    400042: Asset_Model_Oven_Closed007
+    400044: Asset_Model_Oven_Closed008
+    400046: Asset_Model_Oven_Closed009
+    400048: Asset_Model_Oven_Closed010
+    400050: Asset_Model_Plate001
+    400052: Asset_Model_Refrigerator003
+    400054: Asset_Model_Refrigerator004
+    400056: Asset_Model_Sink001
+    400058: Asset_Model_Table002
+    400060: Asset_model_Tea_Cup001
+    400062: Asset_Model_Time_Body001
+    400064: Asset_Model_Timer_Clock001
+    400066: Asset_Model_Top_Corner_Cupboard001
+    400068: Asset_Model_Top_Cupboard001
+    400070: Asset_Model_TS_Book_Of_M001
+    400072: Asset_Model_TS_Car001
+    400074: Asset_Model_TS_Mint001
+    400076: Asset_Model_TS_Protien_Bag001
+    400078: Design_One_Cereal_Box_One002
+    400080: Design_One_Cereal_Box_Two002
+    400082: //RootNode
+    400084: Level_One_Map_layout001
+    400086: Model_Apple001
+    400088: Model_Asset_Floor_Cupboard_002
+    400090: Model_Blender_Bottom001
+    400092: Model_Blender_Top001
+    400094: Model_Bread001
+    400096: Model_Bread_Slice001
+    400098: Model_Toaster001
+    400100: Model_Top_Floor_Cupboard_003
+    400102: Model_Uncooked_Bacon001
+    2100000: 08 - Default
+    2100002: 02 - Default
+    2100004: 'Material #25'
+    2100006: 14 - Default
+    2100008: 21 - Default
+    2100010: 17 - Default
+    2100012: 'Material #26'
+    2100014: 04 - Default
+    2100016: 20 - Default
+    2100018: No Name
+    2100020: 19 - Default
+    2100022: 'Material #79'
+    2100024: 09 - Default
+    2100026: 15 - Default
+    2100028: 13 - Default
+    2300000: Asset_Food_Model_Cooked_Bacon001
+    2300002: Asset_Food_Model_Egg001
+    2300004: Asset_Food_Model_Fried_Egg001
+    2300006: Asset_Food_Model_Milk001
+    2300008: Asset_model_Bowl001
+    2300010: Asset_Model_Ceiling_Extractor002
+    2300012: Asset_Model_Ceiling_Light003
+    2300014: Asset_Model_Ceiling_Light004
+    2300016: Asset_Model_Cereal_Box001
+    2300018: Asset_Model_Cereal_Piece001
+    2300020: Asset_Model_Customer_Table_and_Chairs004
+    2300022: Asset_Model_Customer_Table_and_Chairs005
+    2300024: Asset_Model_Customer_Table_and_Chairs006
+    2300026: Asset_Model_Customer_Table_and_Chairs007
+    2300028: Asset_Model_Door001
+    2300030: Asset_Model_Frying_Pan001
+    2300032: Asset_Model_Kettle001
+    2300034: Asset_Model_Kettle_Top001
+    2300036: Asset_Model_Kitchen_Under_Table002
+    2300038: Asset_Model_Kitchen_Under_Table003
+    2300040: Asset_Model_Mug001
+    2300042: Asset_Model_Oven_Closed007
+    2300044: Asset_Model_Oven_Closed008
+    2300046: Asset_Model_Oven_Closed009
+    2300048: Asset_Model_Oven_Closed010
+    2300050: Asset_Model_Plate001
+    2300052: Asset_Model_Refrigerator003
+    2300054: Asset_Model_Refrigerator004
+    2300056: Asset_Model_Sink001
+    2300058: Asset_Model_Table002
+    2300060: Asset_model_Tea_Cup001
+    2300062: Asset_Model_Time_Body001
+    2300064: Asset_Model_Timer_Clock001
+    2300066: Asset_Model_Top_Corner_Cupboard001
+    2300068: Asset_Model_Top_Cupboard001
+    2300070: Asset_Model_TS_Book_Of_M001
+    2300072: Asset_Model_TS_Car001
+    2300074: Asset_Model_TS_Mint001
+    2300076: Asset_Model_TS_Protien_Bag001
+    2300078: Design_One_Cereal_Box_One002
+    2300080: Design_One_Cereal_Box_Two002
+    2300082: Level_One_Map_layout001
+    2300084: Model_Apple001
+    2300086: Model_Asset_Floor_Cupboard_002
+    2300088: Model_Blender_Bottom001
+    2300090: Model_Blender_Top001
+    2300092: Model_Bread001
+    2300094: Model_Bread_Slice001
+    2300096: Model_Toaster001
+    2300098: Model_Top_Floor_Cupboard_003
+    2300100: Model_Uncooked_Bacon001
+    3300000: Asset_Food_Model_Cooked_Bacon001
+    3300002: Asset_Food_Model_Egg001
+    3300004: Asset_Food_Model_Fried_Egg001
+    3300006: Asset_Food_Model_Milk001
+    3300008: Asset_model_Bowl001
+    3300010: Asset_Model_Ceiling_Extractor002
+    3300012: Asset_Model_Ceiling_Light003
+    3300014: Asset_Model_Ceiling_Light004
+    3300016: Asset_Model_Cereal_Box001
+    3300018: Asset_Model_Cereal_Piece001
+    3300020: Asset_Model_Customer_Table_and_Chairs004
+    3300022: Asset_Model_Customer_Table_and_Chairs005
+    3300024: Asset_Model_Customer_Table_and_Chairs006
+    3300026: Asset_Model_Customer_Table_and_Chairs007
+    3300028: Asset_Model_Door001
+    3300030: Asset_Model_Frying_Pan001
+    3300032: Asset_Model_Kettle001
+    3300034: Asset_Model_Kettle_Top001
+    3300036: Asset_Model_Kitchen_Under_Table002
+    3300038: Asset_Model_Kitchen_Under_Table003
+    3300040: Asset_Model_Mug001
+    3300042: Asset_Model_Oven_Closed007
+    3300044: Asset_Model_Oven_Closed008
+    3300046: Asset_Model_Oven_Closed009
+    3300048: Asset_Model_Oven_Closed010
+    3300050: Asset_Model_Plate001
+    3300052: Asset_Model_Refrigerator003
+    3300054: Asset_Model_Refrigerator004
+    3300056: Asset_Model_Sink001
+    3300058: Asset_Model_Table002
+    3300060: Asset_model_Tea_Cup001
+    3300062: Asset_Model_Time_Body001
+    3300064: Asset_Model_Timer_Clock001
+    3300066: Asset_Model_Top_Corner_Cupboard001
+    3300068: Asset_Model_Top_Cupboard001
+    3300070: Asset_Model_TS_Book_Of_M001
+    3300072: Asset_Model_TS_Car001
+    3300074: Asset_Model_TS_Mint001
+    3300076: Asset_Model_TS_Protien_Bag001
+    3300078: Design_One_Cereal_Box_One002
+    3300080: Design_One_Cereal_Box_Two002
+    3300082: Level_One_Map_layout001
+    3300084: Model_Apple001
+    3300086: Model_Asset_Floor_Cupboard_002
+    3300088: Model_Blender_Bottom001
+    3300090: Model_Blender_Top001
+    3300092: Model_Bread001
+    3300094: Model_Bread_Slice001
+    3300096: Model_Toaster001
+    3300098: Model_Top_Floor_Cupboard_003
+    3300100: Model_Uncooked_Bacon001
+    4300000: Asset_Food_Model_Cooked_Bacon001
+    4300002: Asset_Food_Model_Egg001
+    4300004: Asset_Food_Model_Fried_Egg001
+    4300006: Asset_Food_Model_Milk001
+    4300008: Asset_Model_Ceiling_Extractor002
+    4300010: Asset_Model_Ceiling_Light003
+    4300012: Asset_Model_Ceiling_Light004
+    4300014: Asset_Model_Cereal_Box001
+    4300016: Asset_Model_Cereal_Piece001
+    4300018: Asset_Model_Customer_Table_and_Chairs004
+    4300020: Asset_Model_Customer_Table_and_Chairs005
+    4300022: Asset_Model_Customer_Table_and_Chairs006
+    4300024: Asset_Model_Customer_Table_and_Chairs007
+    4300026: Asset_Model_Door001
+    4300028: Asset_Model_Frying_Pan001
+    4300030: Asset_Model_Kettle001
+    4300032: Asset_Model_Kettle_Top001
+    4300034: Asset_Model_Kitchen_Under_Table002
+    4300036: Asset_Model_Kitchen_Under_Table003
+    4300038: Asset_Model_Mug001
+    4300040: Asset_Model_Oven_Closed007
+    4300042: Asset_Model_Oven_Closed008
+    4300044: Asset_Model_Oven_Closed009
+    4300046: Asset_Model_Oven_Closed010
+    4300048: Asset_Model_Plate001
+    4300050: Asset_Model_Refrigerator003
+    4300052: Asset_Model_Refrigerator004
+    4300054: Asset_Model_Sink001
+    4300056: Asset_Model_TS_Book_Of_M001
+    4300058: Asset_Model_TS_Car001
+    4300060: Asset_Model_TS_Mint001
+    4300062: Asset_Model_TS_Protien_Bag001
+    4300064: Asset_Model_Table002
+    4300066: Asset_Model_Time_Body001
+    4300068: Asset_Model_Timer_Clock001
+    4300070: Asset_Model_Top_Corner_Cupboard001
+    4300072: Asset_Model_Top_Cupboard001
+    4300074: Asset_model_Bowl001
+    4300076: Asset_model_Tea_Cup001
+    4300078: Design_One_Cereal_Box_One002
+    4300080: Design_One_Cereal_Box_Two002
+    4300082: Level_One_Map_layout001
+    4300084: Model_Apple001
+    4300086: Model_Asset_Floor_Cupboard_002
+    4300088: Model_Blender_Bottom001
+    4300090: Model_Blender_Top001
+    4300092: Model_Bread001
+    4300094: Model_Bread_Slice001
+    4300096: Model_Toaster001
+    4300098: Model_Top_Floor_Cupboard_003
+    4300100: Model_Uncooked_Bacon001
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
