@@ -25,11 +25,13 @@ public class UIManager : MonoBehaviour {
             {
                 Time.timeScale = 0;
                 showPaused();
+                Cursor.visible = true;
             }
             else if (Time.timeScale == 0)
             {
                 Debug.Log("high");
                 Time.timeScale = 1;
+                Cursor.visible = false;
                 hidePaused();
             }
         }
