@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17799684, g: 0.22286107, b: 0.30497488, a: 1}
+  m_IndirectSpecularColor: {r: 0.17799702, g: 0.22286165, b: 0.3049756, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -465,7 +465,7 @@ Prefab:
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: crosshairImage
       value: 
-      objectReference: {fileID: 2800000, guid: 81c0c714f5e5147488ba37d2a938025b, type: 3}
+      objectReference: {fileID: 2800000, guid: 1b0a0cb9912032c429053ab718602de8, type: 3}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_MouseLook.clampVerticalRotation
       value: 1
