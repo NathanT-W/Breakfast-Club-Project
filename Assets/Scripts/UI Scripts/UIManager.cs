@@ -51,5 +51,7 @@ public class UIManager : MonoBehaviour {
     public void ResetLevel()
     {
         Application.LoadLevel(Application.loadedLevel);
+        GameIsPaused = false;
+        Time.timeScale = 1f;
     }
 }
