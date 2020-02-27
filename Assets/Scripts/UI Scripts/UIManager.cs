@@ -10,7 +10,7 @@ public class UIManager : MonoBehaviour {
     public GameObject PauseMenuUI;
 
     void Update() { 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P))
     {
         if (GameIsPaused)
             {
