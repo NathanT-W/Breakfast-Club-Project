@@ -27,13 +27,13 @@ public class Plate_Food_Script : MonoBehaviour {
 	void Update () {
         if(food.egg == true)
         {
-            food.Egg.transform.position = plate.transform.position + new Vector3(0.05f,0.05f,0);
+            food.Egg.transform.parent = plate.transform;
+            food.Egg.transform.rotation = plate.transform.rotation;
         }
         if (food.bacon == true)
         {
-            food.Bacon.transform.position = plate.transform.position + new Vector3(-0.1f, 0.03f, 0);
+            food.Bacon.transform.parent = plate.transform;
             food.Bacon.transform.rotation = plate.transform.rotation;
-
         }
     }
 
@@ -48,11 +48,13 @@ public class Plate_Food_Script : MonoBehaviour {
                 food.egg = true;
                 food.Egg = Col.gameObject;
                 food.Egg.GetComponent<Rigidbody>().isKinematic = true;
+                Destroy(food.Egg.GetComponent<PickupItems>());
                 break;
             case "Bacon":
                 food.bacon = true;
                 food.Bacon = Col.gameObject;
                 food.Bacon.GetComponent<Rigidbody>().isKinematic = true;
+                Destroy(food.Bacon.GetComponent<PickupItems>());
                 break;
         }
     }
