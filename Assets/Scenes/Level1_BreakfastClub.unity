@@ -126,7 +126,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.608
+      value: 0.941
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1812,6 +1812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3830f214adc1ce24186a5421a2229c57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameIsPaused: 0
   Player: {fileID: 0}
   PauseMenuUI: {fileID: 672507677}
 --- !u!1 &738935746
@@ -5497,6 +5498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3830f214adc1ce24186a5421a2229c57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameIsPaused: 0
   Player: {fileID: 829290630}
   PauseMenuUI: {fileID: 672507677}
 --- !u!1 &2022591905
