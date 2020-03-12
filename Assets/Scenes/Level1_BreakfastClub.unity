@@ -126,7 +126,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.608
+      value: 0.941
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -548,6 +548,8 @@ MonoBehaviour:
   tempParent: {fileID: 827599617}
   guide: {fileID: 827599618}
   player: {fileID: 829290630}
+  originalPos: {x: 0, y: 0, z: 0}
+  originalRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!33 &234722766
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1812,6 +1814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3830f214adc1ce24186a5421a2229c57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameIsPaused: 0
   Player: {fileID: 0}
   PauseMenuUI: {fileID: 672507677}
 --- !u!1 &738935746
@@ -2226,6 +2229,8 @@ MonoBehaviour:
   tempParent: {fileID: 827599617}
   guide: {fileID: 827599618}
   player: {fileID: 829290630}
+  originalPos: {x: 0, y: 0, z: 0}
+  originalRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &826579151
 GameObject:
   m_ObjectHideFlags: 0
@@ -3916,6 +3921,8 @@ MonoBehaviour:
   tempParent: {fileID: 827599617}
   guide: {fileID: 827599618}
   player: {fileID: 829290630}
+  originalPos: {x: 0, y: 0, z: 0}
+  originalRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1378336384
 GameObject:
   m_ObjectHideFlags: 0
@@ -4260,6 +4267,8 @@ MonoBehaviour:
   tempParent: {fileID: 827599617}
   guide: {fileID: 827599618}
   player: {fileID: 829290630}
+  originalPos: {x: 0.003590125, y: 1.073159, z: -11.95969}
+  originalRot: {x: 90, y: 90, z: 90, w: 0}
 --- !u!65 &1557077602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4701,8 +4710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c77954019e6974095661bcc0b41399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cookedBacon: {fileID: 1837793987561602, guid: ac1ff5076bfffdd469e837cdd606d798,
-    type: 2}
+  cookedBacon: {fileID: 2100000, guid: 17cf14a90429d2d4e85d1aea605698c7, type: 2}
 --- !u!65 &1639072478
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5497,6 +5505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3830f214adc1ce24186a5421a2229c57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameIsPaused: 0
   Player: {fileID: 829290630}
   PauseMenuUI: {fileID: 672507677}
 --- !u!1 &2022591905

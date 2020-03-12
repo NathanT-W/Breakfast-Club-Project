@@ -9,16 +9,13 @@ public class PickupItems : MonoBehaviour {
     public GameObject tempParent;
     public Transform guide;
     public GameObject player;
+    public Vector3 originalPos;
+    public Quaternion originalRot;
 
-	// Use this for initialization
-	void Start () {
-        item.GetComponent<Rigidbody>().useGravity = true;
+    void start()
+    {
+
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     void OnMouseDown() {
         if(player.GetComponent<FirstPersonController>().pickedUp == false)

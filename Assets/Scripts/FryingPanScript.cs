@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class FryingPanScript : MonoBehaviour {
 
-    public GameObject cookedBacon;
+    public Material cookedBacon;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -27,8 +27,11 @@ public class FryingPanScript : MonoBehaviour {
 
                 break;
             case "Bacon":
-                Instantiate(cookedBacon, transform.position, transform.rotation);
-                Destroy(Col.gameObject);
+                Vector3 originalPos = Col.GetComponent<PickupItems>().originalPos;
+                Quaternion originalRot = Col.GetComponent<PickupItems>().originalRot;
+                Instantiate(Col, originalPos, originalRot);
+                Col.tag = "cookedBacon";
+                Col.GetComponent<MeshRenderer>().material = cookedBacon;
                 break;
         }
     }
