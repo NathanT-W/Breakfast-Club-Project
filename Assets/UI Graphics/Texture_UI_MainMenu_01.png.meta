@@ -1,0 +1,1675 @@
+fileFormatVersion: 2
+guid: 93b5f49a5e4836e41be801d0b8e6f969
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Texture_UI_MainMenu_01_0
+    21300002: Texture_UI_MainMenu_01_1
+    21300004: Texture_UI_MainMenu_01_2
+    21300006: Texture_UI_MainMenu_01_3
+    21300008: Texture_UI_MainMenu_01_4
+    21300010: Texture_UI_MainMenu_01_5
+    21300012: Texture_UI_MainMenu_01_6
+    21300014: Texture_UI_MainMenu_01_7
+    21300016: Texture_UI_MainMenu_01_8
+    21300018: Texture_UI_MainMenu_01_9
+    21300020: Texture_UI_MainMenu_01_10
+    21300022: Texture_UI_MainMenu_01_11
+    21300024: Texture_UI_MainMenu_01_12
+    21300026: Texture_UI_MainMenu_01_13
+    21300028: Texture_UI_MainMenu_01_14
+    21300030: Texture_UI_MainMenu_01_15
+    21300032: Texture_UI_MainMenu_01_16
+    21300034: Texture_UI_MainMenu_01_17
+    21300036: Texture_UI_MainMenu_01_18
+    21300038: Texture_UI_MainMenu_01_19
+    21300040: Texture_UI_MainMenu_01_20
+    21300042: Texture_UI_MainMenu_01_21
+    21300044: Texture_UI_MainMenu_01_22
+    21300046: Texture_UI_MainMenu_01_23
+    21300048: Texture_UI_MainMenu_01_24
+    21300050: Texture_UI_MainMenu_01_25
+    21300052: Texture_UI_MainMenu_01_26
+    21300054: Texture_UI_MainMenu_01_27
+    21300056: Texture_UI_MainMenu_01_28
+    21300058: Texture_UI_MainMenu_01_29
+    21300060: Texture_UI_MainMenu_01_30
+    21300062: Texture_UI_MainMenu_01_31
+    21300064: Texture_UI_MainMenu_01_32
+    21300066: Texture_UI_MainMenu_01_33
+    21300068: Texture_UI_MainMenu_01_34
+    21300070: Texture_UI_MainMenu_01_35
+    21300072: Texture_UI_MainMenu_01_36
+    21300074: Texture_UI_MainMenu_01_37
+    21300076: Texture_UI_MainMenu_01_38
+    21300078: Texture_UI_MainMenu_01_39
+    21300080: Texture_UI_MainMenu_01_40
+    21300082: Texture_UI_MainMenu_01_41
+    21300084: Texture_UI_MainMenu_01_42
+    21300086: Texture_UI_MainMenu_01_43
+    21300088: Texture_UI_MainMenu_01_44
+    21300090: Texture_UI_MainMenu_01_45
+    21300092: Texture_UI_MainMenu_01_46
+    21300094: Texture_UI_MainMenu_01_47
+    21300096: Texture_UI_MainMenu_01_48
+    21300098: Texture_UI_MainMenu_01_49
+    21300100: Texture_UI_MainMenu_01_50
+    21300102: Texture_UI_MainMenu_01_51
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 19, y: 1829, z: 1384, w: 43}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1827
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117258611157da64f9d072ca2e07c01e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1827
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be58259fbe6de21479269138840f8c01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1834
+        width: 180
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5658b51bdae739e40a820ddaffaae0a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_3
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1834
+        width: 180
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1af2b6c8f2f45c4c97c52ea729c6076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_4
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1683
+        width: 321
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8236083201edfd74c9db78903db63742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1694
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4fc9030fad1394c92084e04d1b7d22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1694
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b566103bbef7a2d41a3ffd98bd46d994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_7
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1701
+        width: 223
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69550af17ab9a542ad339aac3b216a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_8
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1701
+        width: 225
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4280f10fd7a1bd248be2f315f6ef27b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1546
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75b65ebf943ac44c8102819bcd65dc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1546
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922f6444309a7794ab0d9ca1de8c09c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_11
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1553
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe04d5534b238642aed358a539251ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_12
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1553
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f30fc75d171f24490ed8b182873246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_13
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1583
+        width: 355
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f8da6931dd59645848a5004289b989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1404
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9078a5b2ca09d4f8437b33f4edd2e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_15
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1404
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba0aa32de03ab64a9b2634e6395303e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_16
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1411
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc55c1b850f63cc43a2074a844ea6e4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_17
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1411
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa293eff0bd81544b0edda5fbd3d5a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_18
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1490
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f070e2cef9f23c4d93b539526995645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_19
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1445
+        width: 355
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7640e7f7142a4e42911da1176599fd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1250
+        width: 182
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0312d0d1ee876f2418465be920d76d0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_21
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1250
+        width: 182
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c253136de3064264fae8879e1f30afbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_22
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1257
+        width: 279
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7bbffe3bf484646ab2943b7b96cf74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1257
+        width: 280
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42394b19b6383e141883b80e387510a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1103
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf07ae695eec77408d1ca4d15877aca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_25
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1103
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84943ca7c98b684ab141d018911c5ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_26
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1110
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b37d3c9d91012d49a1af8d483831a64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_27
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1110
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab25d93913ae2a849b1ad76f232d53d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 951
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3912af54a24ac904884cf0902ea3b8aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_29
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 951
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c5d6d3c900c864b9f2bcf573a0fc30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_30
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 958
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2d1c57ee7fbd64f81aa0370ec26b36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_31
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 958
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb81749ce1d4094fa5f2c8feeade3ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_32
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 781
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a964c212d93de824cae1713c0638d818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_33
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 781
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060f1d573a261364d8ea8e3cf103b176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_34
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 788
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b40f3e3d851caf46b7780d398748067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_35
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 788
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a37e33c95fa355469032bd1dbc8bedb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 624
+        width: 196
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ce9f7271e90f479ed42a5ef5b988b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_37
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 624
+        width: 196
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921f4050e1f122e4ea89233cae151d7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_38
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 625
+        width: 312
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab5f499e87112d4bba7a2d0c195a36a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_39
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 627
+        width: 311
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790d8da2b7b636f4cb362c0989d9a99c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 469
+        width: 196
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6538cc541288ce34184ad61f35cfacb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_41
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 467
+        width: 193
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1872b3403045f554fb99a3b57d4ff38f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_42
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 467
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e2c4c4b8baf8c429e3b84b81e91ac6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_43
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 469
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f0f88e81b0bfb438133a532aeab51e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_44
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 311
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a62d8449fc6a740aa3ac73f0f56cee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_45
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 309
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cad3e4c7522fa64f9259fdc05856e71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_46
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 311
+        width: 259
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2176b313000db45afffd7948f4a658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_47
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 313
+        width: 259
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b2cfbf32426c74f93f6c2a51f512aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_48
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 157
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0721d56a5362346ad3cc21eac40142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_49
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 155
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdb6e3a144be8f488f219222f2da2a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_50
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 156
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7292b90f05bfe6542b8070854685349b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texture_UI_MainMenu_01_51
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 158
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4748e405de5f554c97d8863411938d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -396, y: -719}
+      - {x: -484, y: -719}
+      - {x: -496, y: -746}
+      - {x: -496, y: -814}
+      - {x: -446, y: -847}
+      - {x: -362, y: -847}
+      - {x: -357, y: -846}
+      - {x: -313, y: -795}
+      - {x: -313, y: -760}
+      - {x: -318, y: -749}
+    - - {x: -141, y: -718}
+      - {x: -177, y: -718}
+      - {x: -220, y: -737}
+      - {x: -220, y: -806}
+      - {x: -213, y: -830}
+      - {x: -142, y: -846}
+      - {x: -104, y: -846}
+      - {x: -35, y: -808}
+      - {x: -35, y: -754}
+      - {x: -38, y: -741}
+    - - {x: -765, y: -717}
+      - {x: -773, y: -731}
+      - {x: -773, y: -794}
+      - {x: -768, y: -814}
+      - {x: -741, y: -845}
+      - {x: -627, y: -845}
+      - {x: -591, y: -836}
+      - {x: -590, y: -829}
+      - {x: -590, y: -731}
+      - {x: -650, y: -717}
+    - - {x: 121, y: -716}
+      - {x: 113, y: -749}
+      - {x: 113, y: -808}
+      - {x: 178, y: -844}
+      - {x: 234, y: -844}
+      - {x: 298, y: -809}
+      - {x: 298, y: -743}
+      - {x: 215, y: -716}
+    - - {x: -496, y: -653}
+      - {x: -461, y: -693}
+      - {x: -345, y: -693}
+      - {x: -313, y: -682}
+      - {x: -313, y: -599}
+      - {x: -334, y: -565}
+      - {x: -482, y: -565}
+      - {x: -496, y: -589}
+    - - {x: -748, y: -563}
+      - {x: -773, y: -581}
+      - {x: -773, y: -676}
+      - {x: -708, y: -691}
+      - {x: -618, y: -691}
+      - {x: -590, y: -644}
+      - {x: -590, y: -592}
+      - {x: -641, y: -563}
+    - - {x: -222, y: -563}
+      - {x: -256, y: -586}
+      - {x: -256, y: -644}
+      - {x: -167, y: -691}
+      - {x: -74, y: -691}
+      - {x: 7, y: -660}
+      - {x: 7, y: -582}
+      - {x: -46, y: -563}
+    - - {x: 121, y: -561}
+      - {x: 77, y: -587}
+      - {x: 77, y: -643}
+      - {x: 144, y: -689}
+      - {x: 282, y: -689}
+      - {x: 340, y: -675}
+      - {x: 340, y: -579}
+      - {x: 297, y: -561}
+    - - {x: -469, y: -407}
+      - {x: -506, y: -425}
+      - {x: -506, y: -500}
+      - {x: -420, y: -535}
+      - {x: -363, y: -535}
+      - {x: -309, y: -492}
+      - {x: -309, y: -433}
+      - {x: -373, y: -407}
+    - - {x: -209, y: -492}
+      - {x: -169, y: -535}
+      - {x: -73, y: -535}
+      - {x: -24, y: -517}
+      - {x: -24, y: -425}
+      - {x: -28, y: -408}
+      - {x: -35, y: -407}
+      - {x: -192, y: -407}
+      - {x: -209, y: -434}
+    - - {x: -679, y: -405}
+      - {x: -736, y: -405}
+      - {x: -784, y: -429}
+      - {x: -786, y: -440}
+      - {x: -786, y: -491}
+      - {x: -696, y: -533}
+      - {x: -657, y: -533}
+      - {x: -586, y: -486}
+      - {x: -586, y: -435}
+      - {x: -635, y: -413}
+    - - {x: 129, y: -405}
+      - {x: 124, y: -406}
+      - {x: 124, y: -492}
+      - {x: 173, y: -533}
+      - {x: 257, y: -533}
+      - {x: 309, y: -491}
+      - {x: 309, y: -434}
+      - {x: 292, y: -405}
+    - - {x: -763, y: -250}
+      - {x: -794, y: -274}
+      - {x: -794, y: -339}
+      - {x: -733, y: -378}
+      - {x: -662, y: -378}
+      - {x: -594, y: -346}
+      - {x: -594, y: -266}
+      - {x: -661, y: -250}
+    - - {x: -485, y: -250}
+      - {x: -510, y: -276}
+      - {x: -510, y: -323}
+      - {x: -508, y: -334}
+      - {x: -447, y: -378}
+      - {x: -373, y: -378}
+      - {x: -310, y: -345}
+      - {x: -310, y: -265}
+      - {x: -383, y: -250}
+    - - {x: -47, y: -249}
+      - {x: -237, y: -249}
+      - {x: -274, y: -259}
+      - {x: -274, y: -335}
+      - {x: -273, y: -338}
+      - {x: -160, y: -377}
+      - {x: -70, y: -377}
+      - {x: 42, y: -338}
+      - {x: 42, y: -292}
+      - {x: 29, y: -286}
+    - - {x: 142, y: -247}
+      - {x: 63, y: -278}
+      - {x: 59, y: -282}
+      - {x: 59, y: -326}
+      - {x: 62, y: -331}
+      - {x: 173, y: -375}
+      - {x: 268, y: -375}
+      - {x: 374, y: -338}
+      - {x: 374, y: -283}
+      - {x: 234, y: -247}
+    - - {x: -783, y: -93}
+      - {x: -783, y: -204}
+      - {x: -782, y: -206}
+      - {x: -740, y: -221}
+      - {x: -652, y: -221}
+      - {x: -600, y: -181}
+      - {x: -600, y: -108}
+      - {x: -609, y: -93}
+    - - {x: -495, y: -93}
+      - {x: -495, y: -191}
+      - {x: -430, y: -221}
+      - {x: -347, y: -221}
+      - {x: -312, y: -187}
+      - {x: -312, y: -111}
+      - {x: -315, y: -93}
+    - - {x: -197, y: -86}
+      - {x: -201, y: -92}
+      - {x: -201, y: -161}
+      - {x: -184, y: -197}
+      - {x: -155, y: -214}
+      - {x: -67, y: -214}
+      - {x: -16, y: -180}
+      - {x: -16, y: -99}
+      - {x: -60, y: -86}
+    - - {x: 269, y: -93}
+      - {x: 257, y: -86}
+      - {x: 159, y: -86}
+      - {x: 133, y: -100}
+      - {x: 133, y: -185}
+      - {x: 206, y: -214}
+      - {x: 268, y: -214}
+      - {x: 311, y: -172}
+      - {x: 318, y: -159}
+      - {x: 318, y: -123}
+    - - {x: -782, y: 77}
+      - {x: -782, y: -5}
+      - {x: -736, y: -51}
+      - {x: -640, y: -51}
+      - {x: -599, y: 1}
+      - {x: -599, y: 41}
+      - {x: -618, y: 77}
+    - - {x: -373, y: 77}
+      - {x: -466, y: 77}
+      - {x: -494, y: 62}
+      - {x: -494, y: -23}
+      - {x: -427, y: -51}
+      - {x: -357, y: -51}
+      - {x: -311, y: -5}
+      - {x: -311, y: 47}
+    - - {x: -31, y: 76}
+      - {x: -77, y: 84}
+      - {x: -185, y: 84}
+      - {x: -201, y: 64}
+      - {x: -201, y: 5}
+      - {x: -187, y: -29}
+      - {x: -129, y: -44}
+      - {x: -66, y: -44}
+      - {x: -33, y: -20}
+      - {x: -16, y: 12}
+      - {x: -16, y: 57}
+    - - {x: 159, y: 84}
+      - {x: 133, y: 55}
+      - {x: 133, y: -4}
+      - {x: 134, y: -6}
+      - {x: 207, y: -44}
+      - {x: 282, y: -44}
+      - {x: 318, y: 7}
+      - {x: 318, y: 61}
+      - {x: 273, y: 84}
+    - - {x: -755, y: 229}
+      - {x: -782, y: 215}
+      - {x: -782, y: 132}
+      - {x: -740, y: 101}
+      - {x: -658, y: 101}
+      - {x: -599, y: 127}
+      - {x: -599, y: 207}
+      - {x: -693, y: 229}
+    - - {x: -469, y: 229}
+      - {x: -494, y: 202}
+      - {x: -494, y: 135}
+      - {x: -426, y: 101}
+      - {x: -355, y: 101}
+      - {x: -311, y: 143}
+      - {x: -311, y: 203}
+      - {x: -389, y: 229}
+    - - {x: -52, y: 236}
+      - {x: -182, y: 236}
+      - {x: -201, y: 209}
+      - {x: -201, y: 160}
+      - {x: -198, y: 148}
+      - {x: -123, y: 108}
+      - {x: -74, y: 108}
+      - {x: -16, y: 156}
+      - {x: -16, y: 210}
+      - {x: -25, y: 233}
+    - - {x: 219, y: 236}
+      - {x: 187, y: 236}
+      - {x: 169, y: 233}
+      - {x: 155, y: 230}
+      - {x: 133, y: 218}
+      - {x: 133, y: 156}
+      - {x: 172, y: 108}
+      - {x: 253, y: 108}
+      - {x: 318, y: 160}
+      - {x: 318, y: 191}
+      - {x: 303, y: 219}
+    - - {x: -778, y: 376}
+      - {x: -784, y: 349}
+      - {x: -784, y: 287}
+      - {x: -721, y: 250}
+      - {x: -705, y: 248}
+      - {x: -662, y: 248}
+      - {x: -598, y: 294}
+      - {x: -598, y: 348}
+      - {x: -660, y: 376}
+    - - {x: -484, y: 376}
+      - {x: -496, y: 366}
+      - {x: -496, y: 298}
+      - {x: -456, y: 248}
+      - {x: -374, y: 248}
+      - {x: -310, y: 294}
+      - {x: -310, y: 353}
+      - {x: -374, y: 376}
+    - - {x: -240, y: 383}
+      - {x: -240, y: 290}
+      - {x: -163, y: 255}
+      - {x: -57, y: 255}
+      - {x: 43, y: 288}
+      - {x: 43, y: 383}
+    - - {x: 94, y: 383}
+      - {x: 94, y: 293}
+      - {x: 194, y: 255}
+      - {x: 274, y: 255}
+      - {x: 369, y: 297}
+      - {x: 378, y: 306}
+      - {x: 378, y: 383}
+    - - {x: -670, y: 530}
+      - {x: -773, y: 530}
+      - {x: -782, y: 514}
+      - {x: -782, y: 445}
+      - {x: -724, y: 402}
+      - {x: -641, y: 402}
+      - {x: -602, y: 421}
+      - {x: -599, y: 437}
+      - {x: -599, y: 503}
+      - {x: -630, y: 524}
+    - - {x: -489, y: 530}
+      - {x: -494, y: 513}
+      - {x: -494, y: 441}
+      - {x: -440, y: 402}
+      - {x: -348, y: 402}
+      - {x: -311, y: 451}
+      - {x: -311, y: 502}
+      - {x: -374, y: 530}
+    - - {x: -168, y: 537}
+      - {x: -188, y: 530}
+      - {x: -188, y: 447}
+      - {x: -163, y: 409}
+      - {x: -46, y: 409}
+      - {x: -3, y: 430}
+      - {x: -3, y: 504}
+      - {x: -60, y: 537}
+    - - {x: 313, y: 515}
+      - {x: 233, y: 537}
+      - {x: 146, y: 537}
+      - {x: 146, y: 409}
+      - {x: 282, y: 409}
+      - {x: 317, y: 429}
+      - {x: 331, y: 461}
+      - {x: 331, y: 503}
+    - - {x: 408, y: 483}
+      - {x: 408, y: 443}
+      - {x: 767, y: 443}
+      - {x: 767, y: 483}
+    - - {x: 408, y: 574}
+      - {x: 376, y: 553}
+      - {x: 376, y: 496}
+      - {x: 382, y: 488}
+      - {x: 437, y: 488}
+      - {x: 461, y: 508}
+      - {x: 461, y: 566}
+      - {x: 454, y: 574}
+    - - {x: -775, y: 672}
+      - {x: -783, y: 657}
+      - {x: -783, y: 588}
+      - {x: -781, y: 583}
+      - {x: -735, y: 544}
+      - {x: -646, y: 544}
+      - {x: -600, y: 578}
+      - {x: -600, y: 663}
+      - {x: -636, y: 672}
+    - - {x: -395, y: 672}
+      - {x: -463, y: 672}
+      - {x: -495, y: 651}
+      - {x: -495, y: 592}
+      - {x: -461, y: 549}
+      - {x: -443, y: 544}
+      - {x: -349, y: 544}
+      - {x: -312, y: 598}
+      - {x: -312, y: 637}
+      - {x: -333, y: 653}
+    - - {x: -188, y: 679}
+      - {x: -188, y: 589}
+      - {x: -178, y: 560}
+      - {x: -135, y: 551}
+      - {x: -51, y: 551}
+      - {x: -3, y: 580}
+      - {x: -3, y: 679}
+    - - {x: 268, y: 679}
+      - {x: 150, y: 679}
+      - {x: 146, y: 670}
+      - {x: 146, y: 593}
+      - {x: 206, y: 551}
+      - {x: 276, y: 551}
+      - {x: 331, y: 585}
+      - {x: 331, y: 638}
+      - {x: 284, y: 677}
+    - - {x: 411, y: 621}
+      - {x: 408, y: 612}
+      - {x: 408, y: 586}
+      - {x: 414, y: 581}
+      - {x: 761, y: 581}
+      - {x: 767, y: 584}
+      - {x: 767, y: 613}
+      - {x: 763, y: 621}
+    - - {x: 645, y: 948}
+      - {x: 578, y: 957}
+      - {x: 458, y: 957}
+      - {x: 388, y: 896}
+      - {x: 388, y: 858}
+      - {x: 481, y: 717}
+      - {x: 509, y: 681}
+      - {x: 593, y: 681}
+      - {x: 707, y: 729}
+      - {x: 713, y: 785}
+      - {x: 713, y: 910}
+      - {x: 708, y: 924}
+    - - {x: -743, y: 820}
+      - {x: -782, y: 791}
+      - {x: -782, y: 731}
+      - {x: -777, y: 712}
+      - {x: -714, y: 692}
+      - {x: -651, y: 692}
+      - {x: -599, y: 740}
+      - {x: -599, y: 785}
+      - {x: -641, y: 820}
+    - - {x: -364, y: 820}
+      - {x: -480, y: 820}
+      - {x: -494, y: 814}
+      - {x: -494, y: 732}
+      - {x: -464, y: 692}
+      - {x: -349, y: 692}
+      - {x: -311, y: 743}
+      - {x: -311, y: 790}
+      - {x: -358, y: 818}
+    - - {x: -209, y: 796}
+      - {x: -209, y: 745}
+      - {x: -132, y: 699}
+      - {x: -55, y: 699}
+      - {x: 18, y: 736}
+      - {x: 18, y: 805}
+      - {x: 15, y: 816}
+      - {x: -55, y: 827}
+      - {x: -176, y: 827}
+      - {x: -207, y: 803}
+    - - {x: 283, y: 827}
+      - {x: 166, y: 827}
+      - {x: 125, y: 813}
+      - {x: 125, y: 714}
+      - {x: 198, y: 699}
+      - {x: 287, y: 699}
+      - {x: 354, y: 738}
+      - {x: 354, y: 780}
+      - {x: 342, y: 810}
+    - - {x: -767, y: 953}
+      - {x: -783, y: 922}
+      - {x: -783, y: 869}
+      - {x: -763, y: 847}
+      - {x: -705, y: 825}
+      - {x: -653, y: 825}
+      - {x: -600, y: 872}
+      - {x: -600, y: 914}
+      - {x: -644, y: 953}
+    - - {x: -490, y: 953}
+      - {x: -495, y: 939}
+      - {x: -495, y: 865}
+      - {x: -493, y: 856}
+      - {x: -426, y: 825}
+      - {x: -378, y: 825}
+      - {x: -326, y: 847}
+      - {x: -312, y: 874}
+      - {x: -312, y: 921}
+      - {x: -346, y: 953}
+    - - {x: -109, y: 960}
+      - {x: -178, y: 960}
+      - {x: -186, y: 932}
+      - {x: -186, y: 865}
+      - {x: -124, y: 832}
+      - {x: -64, y: 832}
+      - {x: -52, y: 834}
+      - {x: -2, y: 879}
+      - {x: -2, y: 917}
+      - {x: -22, y: 944}
+    - - {x: 175, y: 960}
+      - {x: 163, y: 953}
+      - {x: 148, y: 930}
+      - {x: 148, y: 890}
+      - {x: 154, y: 869}
+      - {x: 209, y: 832}
+      - {x: 273, y: 832}
+      - {x: 332, y: 869}
+      - {x: 332, y: 934}
+      - {x: 274, y: 960}
+    physicsShape: []
+    bones: []
+    spriteID: c9fe7f44c0517f741b460ce99d3325bd
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
