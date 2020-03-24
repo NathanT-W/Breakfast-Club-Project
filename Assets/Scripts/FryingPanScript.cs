@@ -22,11 +22,9 @@ public class FryingPanScript : MonoBehaviour {
 
     void OnTriggerEnter(Collider Col)
     {
-        Vector3 originalPosition;
-        Quaternion originalRotation;
+        Vector3 originalPosition = Col.GetComponent<PickupItems>().originalPos;
+        Quaternion originalRotation = Col.GetComponent<PickupItems>().originalRot;
 
-        originalPosition = Col.GetComponent<PickupItems>().originalPos;
-        originalRotation = Col.GetComponent<PickupItems>().originalRot;
         Instantiate(Col, originalPosition, originalRotation);
 
         switch (Col.gameObject.tag)

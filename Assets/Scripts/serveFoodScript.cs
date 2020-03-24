@@ -25,5 +25,8 @@ public class serveFoodScript : MonoBehaviour {
             Debug.Log(0);
         }
 
+
+
+        Destroy(Col.gameObject);
     }
 }

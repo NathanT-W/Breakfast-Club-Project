@@ -2085,7 +2085,7 @@ MonoBehaviour:
   tempParent: {fileID: 827599617}
   guide: {fileID: 827599618}
   player: {fileID: 829290630}
-  originalPos: {x: 0, y: 0, z: 0}
+  originalPos: {x: 1.764795, y: 1.079413, z: -10.22025}
   originalRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &826579151
 GameObject:
