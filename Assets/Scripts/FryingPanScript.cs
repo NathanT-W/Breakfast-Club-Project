@@ -5,6 +5,10 @@ using UnityEngine;
 public class FryingPanScript : MonoBehaviour {
 
     public Material cookedBacon;
+    public Material cookedEgg;
+    public Mesh cookedEggMesh;
+
+    public GameObject fryingPan;
 
     // Use this for initialization
     void Start () {
@@ -18,21 +22,35 @@ public class FryingPanScript : MonoBehaviour {
 
     void OnTriggerEnter(Collider Col)
     {
+        Vector3 originalPosition;
+        Quaternion originalRotation;
+
+        originalPosition = Col.GetComponent<PickupItems>().originalPos;
+        originalRotation = Col.GetComponent<PickupItems>().originalRot;
+        Instantiate(Col, originalPosition, originalRotation);
+
         switch (Col.gameObject.tag)
         {
             case "Toast":
 
                 break;
-            case "Egg":
-
+            case "Egg":                
+                Col.tag = "cookedEgg";
+                Col.GetComponent<MeshRenderer>().material = cookedEgg;
+                Col.GetComponent<MeshFilter>().mesh = cookedEggMesh;
                 break;
             case "Bacon":
-                Vector3 originalPos = Col.GetComponent<PickupItems>().originalPos;
-                Quaternion originalRot = Col.GetComponent<PickupItems>().originalRot;
-                Instantiate(Col, originalPos, originalRot);
                 Col.tag = "cookedBacon";
                 Col.GetComponent<MeshRenderer>().material = cookedBacon;
                 break;
+                
         }
+
+        fryingPan.GetComponents<Collider>()[0].enabled = false;
+    }
+
+    void OnCollisionExit(Collision other)
+    {
+        fryingPan.GetComponents<Collider>()[0].enabled = true;
     }
 }

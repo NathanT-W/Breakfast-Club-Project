@@ -45,12 +45,14 @@ public class Plate_Food_Script : MonoBehaviour {
                 food.Toast = Col.gameObject;
                 break;
             case "Egg":
+            case "cookedEgg":
                 food.egg = true;
                 food.Egg = Col.gameObject;
                 food.Egg.GetComponent<Rigidbody>().isKinematic = true;
                 Destroy(food.Egg.GetComponent<PickupItems>());
                 break;
             case "Bacon":
+            case "cookedBacon":
                 food.bacon = true;
                 food.Bacon = Col.gameObject;
                 food.Bacon.GetComponent<Rigidbody>().isKinematic = true;
