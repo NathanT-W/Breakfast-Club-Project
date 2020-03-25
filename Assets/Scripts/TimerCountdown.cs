@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimerCountdown : MonoBehaviour
 {
-    private float timer = 40f;
+    public float timer = 50f;
     private Text timerSeconds;
-
+    public GameObject Player;
 
     // Use this for initialization
     void Start()
@@ -22,7 +23,12 @@ public class TimerCountdown : MonoBehaviour
         timerSeconds.text = timer.ToString("f0");
         if (timer <= 0)
         {
+
             Application.LoadLevel("MainMenu");
+            Time.timeScale = 1f;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
         }
 
     }
