@@ -53,5 +53,7 @@ public class UIManager : MonoBehaviour {
         Application.LoadLevel(Application.loadedLevel);
         GameIsPaused = false;
         Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
