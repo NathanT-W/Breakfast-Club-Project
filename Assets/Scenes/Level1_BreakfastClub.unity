@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c07b0524dc43c4db74306443efa67e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 5
+  timer: 40
   Player: {fileID: 0}
 --- !u!114 &204653979
 MonoBehaviour:
@@ -2816,7 +2816,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300128, guid: 2f67b2cd3b5032546b568f6e5a962d1b, type: 3}
+  m_Sprite: {fileID: 21300128, guid: ff803f40e9dfd984e9cdcb57827a7b93, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
