@@ -25,9 +25,6 @@ public class serveFoodScript : MonoBehaviour {
             Debug.Log(0);
         }
 
-<<<<<<< HEAD
         Destroy(Col.gameObject);
-=======
->>>>>>> parent of 52596bb... Random bug fixes
     }
 }
