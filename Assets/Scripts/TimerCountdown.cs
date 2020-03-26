@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class TimerCountdown : MonoBehaviour
 {
-    public float timer = 50f;
+    public bool GameIsPaused = false;
+    private float timer = 59f;
     private Text timerSeconds;
     public GameObject Player;
+    public GameObject FailMenuUI;
 
     // Use this for initialization
     void Start()
