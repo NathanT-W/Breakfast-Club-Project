@@ -264,6 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameIsPaused: 0
+  timer: 59
   Player: {fileID: 829290630}
   FailMenuUI: {fileID: 0}
 --- !u!114 &204653979
