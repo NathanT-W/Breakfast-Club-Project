@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Level2_BreakfastClub.unity
     guid: 329ab721a0f100c47bb8615a58b6696e
-  - enabled: 1
-    path: Assets/Scenes/Failure.unity
-    guid: 1f760b7fc60fa6b48abb3f436cda4240
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

@@ -27,10 +27,10 @@ public class TimerCountdown : MonoBehaviour
         if (timer <= 0)
         {
 
-            Application.LoadLevel("MainMenu");
             Time.timeScale = 1f;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            Application.LoadLevel("MainMenu");
 
         }
 
