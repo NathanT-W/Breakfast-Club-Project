@@ -8,7 +8,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class TimerCountdown : MonoBehaviour
 {
     public bool GameIsPaused = false;
-    private float timer = 59f;
+    public float timer = 59f;
     private Text timerSeconds;
     public GameObject Player;
     public GameObject FailMenuUI;
