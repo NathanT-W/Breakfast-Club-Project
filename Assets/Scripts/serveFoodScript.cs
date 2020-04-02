@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class serveFoodScript : MonoBehaviour {
 
     public GameObject timer;
     public GameObject VictoryNotif;
+    public GameObject player;
 
     void OnTriggerEnter(Collider Col)
     {
@@ -16,6 +19,7 @@ public class serveFoodScript : MonoBehaviour {
             {
                 timer.GetComponent<TimerCountdown>().enabled = false;
                 VictoryNotif.gameObject.SetActive(true);
+                timer.GetComponent<Text>().text = "You Win!";
             }
             else
             {
@@ -24,7 +28,11 @@ public class serveFoodScript : MonoBehaviour {
         }
         else
         {
-            Debug.Log("Lose");
+            Time.timeScale = 1f;
+            player.GetComponent<FirstPersonController>().enabled = false;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            Application.LoadLevel("MainMenu");
         }
 
         Destroy(Col.gameObject);
