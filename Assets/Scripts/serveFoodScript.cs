@@ -18,12 +18,19 @@ public class serveFoodScript : MonoBehaviour {
             if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Egg.tag, "cookedEgg") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Bacon.tag, "cookedBacon"))
             {
                 timer.GetComponent<TimerCountdown>().enabled = false;
+                player.GetComponent<FirstPersonController>().enabled = false;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
                 VictoryNotif.gameObject.SetActive(true);
-                timer.GetComponent<Text>().text = "You Win!";
+                timer.GetComponent<Text>().text = "";
             }
             else
             {
-                Debug.Log("Lose");
+                Time.timeScale = 1f;
+                player.GetComponent<FirstPersonController>().enabled = false;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                Application.LoadLevel("MainMenu");
             }
         }
         else

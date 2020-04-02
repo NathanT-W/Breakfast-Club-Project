@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17799684, g: 0.22286107, b: 0.30497488, a: 1}
+  m_IndirectSpecularColor: {r: 0.17799702, g: 0.22286165, b: 0.3049756, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -390,6 +390,7 @@ MonoBehaviour:
   timer: 59
   Player: {fileID: 829290630}
   FailMenuUI: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &204653979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -666,6 +667,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300076, guid: 5991d05bc410d7143b415c18def0fc7b, type: 3}
+--- !u!1 &265879883 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1435468559918018, guid: 8cfc07ffcf3a456419cd2c255f2c8c30,
+    type: 2}
+  m_PrefabInternal: {fileID: 1494907730}
+--- !u!114 &265879884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 265879883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d72e95486246554ba2e9a626449617e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &355194049
 Prefab:
   m_ObjectHideFlags: 0
@@ -2290,7 +2307,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 204653976}
-  VictoryNotif: {fileID: 0}
+  VictoryNotif: {fileID: 655159930}
+  player: {fileID: 829290630}
 --- !u!65 &1483269769
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2399,6 +2417,21 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114056280328663530, guid: 8cfc07ffcf3a456419cd2c255f2c8c30,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 265879884}
+    - target: {fileID: 114056280328663530, guid: 8cfc07ffcf3a456419cd2c255f2c8c30,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadByIndex
+      objectReference: {fileID: 0}
+    - target: {fileID: 114056280328663530, guid: 8cfc07ffcf3a456419cd2c255f2c8c30,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8cfc07ffcf3a456419cd2c255f2c8c30, type: 2}
@@ -2806,6 +2839,26 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114247662037288662, guid: e67c97400e174c147acdac45a7c5e22a,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1688827853}
+    - target: {fileID: 114247662037288662, guid: e67c97400e174c147acdac45a7c5e22a,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadByIndex
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247662037288662, guid: e67c97400e174c147acdac45a7c5e22a,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247662037288662, guid: e67c97400e174c147acdac45a7c5e22a,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e67c97400e174c147acdac45a7c5e22a, type: 2}
   m_IsPrefabParent: 0
@@ -2814,6 +2867,22 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224507206141451438, guid: e67c97400e174c147acdac45a7c5e22a,
     type: 2}
   m_PrefabInternal: {fileID: 1687742224}
+--- !u!1 &1688827852 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1745000039341860, guid: e67c97400e174c147acdac45a7c5e22a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1687742224}
+--- !u!114 &1688827853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1688827852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d72e95486246554ba2e9a626449617e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1851063038
 Prefab:
   m_ObjectHideFlags: 0
