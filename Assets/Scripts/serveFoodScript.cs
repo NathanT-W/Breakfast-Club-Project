@@ -5,6 +5,7 @@ using UnityEngine;
 public class serveFoodScript : MonoBehaviour {
 
     public GameObject timer;
+    public GameObject VictoryNotif;
 
     void OnTriggerEnter(Collider Col)
     {
@@ -14,6 +15,7 @@ public class serveFoodScript : MonoBehaviour {
             if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Egg.tag, "cookedEgg") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Bacon.tag, "cookedBacon"))
             {
                 timer.GetComponent<TimerCountdown>().enabled = false;
+                VictoryNotif.gameObject.SetActive(true);
             }
             else
             {
