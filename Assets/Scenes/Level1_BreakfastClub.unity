@@ -267,8 +267,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 60.3, y: -34.9}
-  m_SizeDelta: {x: 121.2, y: 71}
+  m_AnchoredPosition: {x: 123, y: -34.9}
+  m_SizeDelta: {x: 242.4, y: 71}
   m_Pivot: {x: 0.50000006, y: 0.50000006}
 --- !u!114 &204653978
 MonoBehaviour:
@@ -285,6 +285,7 @@ MonoBehaviour:
   timer: 59
   Player: {fileID: 829290630}
   FailMenuUI: {fileID: 0}
+  player: {fileID: 829290630}
 --- !u!114 &204653979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2261,6 +2262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 204653976}
+  player: {fileID: 829290630}
 --- !u!65 &1483269769
 BoxCollider:
   m_ObjectHideFlags: 0
