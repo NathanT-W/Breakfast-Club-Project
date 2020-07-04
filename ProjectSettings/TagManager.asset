@@ -10,6 +10,9 @@ TagManager:
   - ShowOnPause
   - cookedBacon
   - cookedEgg
+  - Level1
+  - Level2
+  - bread
   layers:
   - Default
   - TransparentFX

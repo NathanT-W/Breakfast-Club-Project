@@ -35,14 +35,21 @@ public class Plate_Food_Script : MonoBehaviour {
             food.Bacon.transform.parent = plate.transform;
             food.Bacon.transform.rotation = plate.transform.rotation;
         }
+        if (food.toast == true)
+        {
+            food.Toast.transform.parent = plate.transform;
+        }
     }
 
     void OnTriggerEnter(Collider Col) {
         switch (Col.gameObject.tag)
         {
+            case "bread":
             case "Toast":
                 food.toast = true;
                 food.Toast = Col.gameObject;
+                food.Toast.GetComponent<Rigidbody>().isKinematic = true;
+                Destroy(food.Toast.GetComponent<PickupItems>());
                 break;
             case "Egg":
             case "cookedEgg":

@@ -3861,8 +3861,6 @@ GameObject:
   - component: {fileID: 1483269767}
   - component: {fileID: 1483269766}
   - component: {fileID: 1483269765}
-  - component: {fileID: 1483269769}
-  - component: {fileID: 1483269768}
   m_Layer: 0
   m_Name: Level_One_Map_layout002
   m_TagString: Untagged
@@ -3879,7 +3877,8 @@ Transform:
   m_LocalRotation: {x: -0.7063117, y: -0.003253552, z: 0.0036512085, w: 0.7078841}
   m_LocalPosition: {x: 1.169, y: 1.365, z: 0.226}
   m_LocalScale: {x: 0.056076, y: 0.081055, z: 0.056076}
-  m_Children: []
+  m_Children:
+  - {fileID: 1707950506}
   m_Father: {fileID: 836944241}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: -89.426, y: -77.15501, z: 77.187004}
@@ -3941,32 +3940,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1483269763}
   m_Mesh: {fileID: 4300070, guid: 5991d05bc410d7143b415c18def0fc7b, type: 3}
---- !u!114 &1483269768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1483269763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9640c2bd72bc8f44b0bb35732544b05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: {fileID: 204653976}
-  VictoryNotif: {fileID: 655159930}
-  player: {fileID: 829290630}
---- !u!65 &1483269769
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1483269763}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 8.761496, y: 48.394352, z: 19.01855}
-  m_Center: {x: -2.1642196, y: -25.557604, z: 1.9257402}
 --- !u!1001 &1494907730
 Prefab:
   m_ObjectHideFlags: 0
@@ -4078,6 +4051,11 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114056280328663530, guid: 8cfc07ffcf3a456419cd2c255f2c8c30,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8cfc07ffcf3a456419cd2c255f2c8c30, type: 2}
@@ -4655,6 +4633,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d72e95486246554ba2e9a626449617e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1707950505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1707950506}
+  - component: {fileID: 1707950508}
+  - component: {fileID: 1707950507}
+  m_Layer: 0
+  m_Name: WinBox
+  m_TagString: Level1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1707950506
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1707950505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1483269764}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1707950507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1707950505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9640c2bd72bc8f44b0bb35732544b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 204653976}
+  VictoryNotif: {fileID: 655159930}
+  player: {fileID: 829290630}
+--- !u!65 &1707950508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1707950505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.761496, y: 48.394352, z: 19.01855}
+  m_Center: {x: -2.1642196, y: -25.557604, z: 1.9257402}
 --- !u!1 &1716049443
 GameObject:
   m_ObjectHideFlags: 0
