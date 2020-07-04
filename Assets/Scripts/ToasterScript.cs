@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class ToasterScript : MonoBehaviour {
 
-    public Material toast;
-
     void OnTriggerEnter(Collider Col)
     {
         Vector3 originalPosition = Col.GetComponent<PickupItems>().originalPos;
@@ -20,5 +18,12 @@ public class ToasterScript : MonoBehaviour {
                 Col.gameObject.tag = "Toast";
                 break;
         }
+
+        gameObject.GetComponents<BoxCollider>()[0].enabled = false;
+    }
+
+    void OnCollisionExit(Collision other)
+    {
+        gameObject.GetComponents<BoxCollider>()[0].enabled = true;
     }
 }
