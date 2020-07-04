@@ -12,17 +12,27 @@ public class serveFoodScript : MonoBehaviour {
 
     void OnTriggerEnter(Collider Col)
     {
-
-        if (Col.GetComponent<Plate_Food_Script>().food.egg == true && Col.GetComponent<Plate_Food_Script>().food.bacon == true)
+        if (gameObject.tag == "Level1")
         {
-            if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Egg.tag, "cookedEgg") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Bacon.tag, "cookedBacon"))
+            if (Col.GetComponent<Plate_Food_Script>().food.egg == true && Col.GetComponent<Plate_Food_Script>().food.bacon == true)
             {
-                timer.GetComponent<TimerCountdown>().enabled = false;
-                player.GetComponent<FirstPersonController>().enabled = false;
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
-                VictoryNotif.gameObject.SetActive(true);
-                timer.GetComponent<Text>().text = "";
+                if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Egg.tag, "cookedEgg") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Bacon.tag, "cookedBacon"))
+                {
+                    timer.GetComponent<TimerCountdown>().enabled = false;
+                    player.GetComponent<FirstPersonController>().enabled = false;
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
+                    VictoryNotif.gameObject.SetActive(true);
+                    timer.GetComponent<Text>().text = "";
+                }
+                else
+                {
+                    Time.timeScale = 1f;
+                    player.GetComponent<FirstPersonController>().enabled = false;
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
+                    Application.LoadLevel("MainMenu");
+                }
             }
             else
             {
@@ -33,13 +43,36 @@ public class serveFoodScript : MonoBehaviour {
                 Application.LoadLevel("MainMenu");
             }
         }
-        else
+        else if(gameObject.tag == "Level2")
         {
-            Time.timeScale = 1f;
-            player.GetComponent<FirstPersonController>().enabled = false;
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            Application.LoadLevel("MainMenu");
+            if (Col.GetComponent<Plate_Food_Script>().food.toast == true && Col.GetComponent<Plate_Food_Script>().food.bacon == true)
+            {
+                if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Toast.tag, "Toast") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Bacon.tag, "cookedBacon"))
+                {
+                    timer.GetComponent<TimerCountdown>().enabled = false;
+                    player.GetComponent<FirstPersonController>().enabled = false;
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
+                    VictoryNotif.gameObject.SetActive(true);
+                    timer.GetComponent<Text>().text = "";
+                }
+                else
+                {
+                    Time.timeScale = 1f;
+                    player.GetComponent<FirstPersonController>().enabled = false;
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
+                    Application.LoadLevel("MainMenu");
+                }
+            }
+            else
+            {
+                Time.timeScale = 1f;
+                player.GetComponent<FirstPersonController>().enabled = false;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                Application.LoadLevel("MainMenu");
+            }
         }
 
         Destroy(Col.gameObject);
