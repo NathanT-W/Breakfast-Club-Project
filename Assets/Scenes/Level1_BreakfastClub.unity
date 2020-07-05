@@ -858,10 +858,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 153509339}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Anchor: {x: -1.3, y: 15.96, z: 0}
+  m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 3.3674989, y: 2.3975084, z: 2.4479866}
+  m_ConnectedAnchor: {x: 3.2946, y: 2.3975081, z: 1.5530136}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -1041,10 +1041,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 184009674}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Anchor: {x: 11.32, y: 25.44, z: 0}
+  m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 5.899099, y: 2.3974411, z: 4.238613}
+  m_ConnectedAnchor: {x: 6.5338793, y: 2.397441, z: 2.8120394}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2474,10 +2474,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 599510825}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 11.32, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Anchor: {x: 11.32, y: -17.34, z: 0}
+  m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.5338793, y: 2.3974411, z: 4.238613}
+  m_ConnectedAnchor: {x: 6.5338793, y: 2.3974414, z: 5.210971}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2986,6 +2986,7 @@ GameObject:
   - component: {fileID: 786963498}
   - component: {fileID: 786963500}
   - component: {fileID: 786963499}
+  - component: {fileID: 786963501}
   m_Layer: 0
   m_Name: Asset_Model_Top_Cupboard001
   m_TagString: Untagged
@@ -3050,6 +3051,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 786963497}
   m_Mesh: {fileID: 4300064, guid: 5991d05bc410d7143b415c18def0fc7b, type: 3}
+--- !u!64 &786963501
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 786963497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300064, guid: 5991d05bc410d7143b415c18def0fc7b, type: 3}
 --- !u!4 &821690570 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4701304350738934, guid: 22a1f5ba3fd88cc449dfd46ca00c597a,
@@ -3080,6 +3095,7 @@ GameObject:
   - component: {fileID: 830771147}
   - component: {fileID: 830771149}
   - component: {fileID: 830771148}
+  - component: {fileID: 830771150}
   m_Layer: 0
   m_Name: Asset_Model_Top_Corner_Cupboard001
   m_TagString: Untagged
@@ -3143,6 +3159,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 830771146}
+  m_Mesh: {fileID: 4300058, guid: 5991d05bc410d7143b415c18def0fc7b, type: 3}
+--- !u!64 &830771150
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 830771146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300058, guid: 5991d05bc410d7143b415c18def0fc7b, type: 3}
 --- !u!1 &836944239
 GameObject:
@@ -3795,10 +3825,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1280848069}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Anchor: {x: -2.2, y: 7.71, z: 0}
+  m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.251329, y: 0.5380744, z: 3.4167442}
+  m_ConnectedAnchor: {x: 6.1279616, y: 0.5380743, z: 2.9843981}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -4325,7 +4355,8 @@ Transform:
   m_LocalRotation: {x: -0.7063117, y: -0.003253552, z: 0.0036512085, w: 0.7078841}
   m_LocalPosition: {x: 1.169, y: 1.365, z: 0.226}
   m_LocalScale: {x: 0.056076, y: 0.081055, z: 0.056076}
-  m_Children: [{fileID: 1707950506}]
+  m_Children:
+  - {fileID: 1707950506}
   m_Father: {fileID: 836944241}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: -89.426, y: -77.15501, z: 77.187004}
@@ -5869,6 +5900,7 @@ GameObject:
   - component: {fileID: 1938101564}
   - component: {fileID: 1938101566}
   - component: {fileID: 1938101565}
+  - component: {fileID: 1938101567}
   m_Layer: 0
   m_Name: Asset_Model_Ceiling_Extractor002
   m_TagString: Untagged
@@ -5932,6 +5964,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1938101563}
+  m_Mesh: {fileID: 4300000, guid: 5991d05bc410d7143b415c18def0fc7b, type: 3}
+--- !u!64 &1938101567
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1938101563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 5991d05bc410d7143b415c18def0fc7b, type: 3}
 --- !u!1001 &1993760541
 Prefab:
