@@ -15,18 +15,18 @@ public class FryingPanScript : MonoBehaviour {
         Vector3 originalPosition = Col.GetComponent<PickupItems>().originalPos;
         Quaternion originalRotation = Col.GetComponent<PickupItems>().originalRot;
 
-        Instantiate(Col, originalPosition, originalRotation);
-
         switch (Col.gameObject.tag)
         {
             case "Egg":                
                 Col.tag = "cookedEgg";
                 Col.GetComponent<MeshRenderer>().material = cookedEgg;
                 Col.GetComponent<MeshFilter>().mesh = cookedEggMesh;
+                Instantiate(Col, originalPosition, originalRotation);
                 break;
             case "Bacon":
                 Col.tag = "cookedBacon";
                 Col.GetComponent<MeshRenderer>().material = cookedBacon;
+                Instantiate(Col, originalPosition, originalRotation);
                 break;
                 
         }
