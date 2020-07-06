@@ -4,11 +4,18 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Computer_Logo
+    100004: Plane012
     400000: //RootNode
+    400002: Computer_Logo
+    400004: Plane012
     2100000: No Name
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Box159
+    2300000: Computer_Logo
+    2300002: Plane012
+    3300000: Computer_Logo
+    3300002: Plane012
+    4300000: Plane012
+    4300002: Computer_Logo
   externalObjects: {}
   materials:
     importMaterials: 1
