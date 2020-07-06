@@ -22,8 +22,10 @@ GameObject:
   - component: {fileID: 33142145078997940}
   - component: {fileID: 23789139579156612}
   - component: {fileID: 114084531626332370}
+  - component: {fileID: 114067274529365978}
   - component: {fileID: 65032751731205702}
   - component: {fileID: 54111627637359658}
+  - component: {fileID: 65426870380839226}
   m_Layer: 0
   m_Name: Asset_model_Tea_Cup_Filled001 1
   m_TagString: TeaCup
@@ -38,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1667784740426038}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.4286568, y: 1.0138085, z: -4.6294312}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -113,6 +115,33 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1984, y: 0.095400006, z: 0.19260001}
   m_Center: {x: -0.00090000033, y: -0.0021000002, z: 0.00019999966}
+--- !u!65 &65426870380839226
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1667784740426038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.23656654, y: 0.12564895, z: 0.2489419}
+  m_Center: {x: -0.009856939, y: 0.013024464, z: 0.0066683292}
+--- !u!114 &114067274529365978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1667784740426038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82e6039056610f439fdf72057f04060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  milkCupMesh: {fileID: 4300072, guid: b730f3b509778164b91db4297f5ac65e, type: 3}
+  milkCup: {fileID: 2100000, guid: 41b77d24a690b0546b1b5eb1e4d69cc3, type: 2}
+  finishedCupMesh: {fileID: 4300072, guid: b730f3b509778164b91db4297f5ac65e, type: 3}
+  finishedCup: {fileID: 2100000, guid: 6b5b4f70f9e76e2449e7888eb5623805, type: 2}
 --- !u!114 &114084531626332370
 MonoBehaviour:
   m_ObjectHideFlags: 1

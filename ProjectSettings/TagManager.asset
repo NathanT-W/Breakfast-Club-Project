@@ -21,6 +21,7 @@ TagManager:
   - FinishedCup
   - FinishedMug
   - EmptyCup
+  - Milk
   layers:
   - Default
   - TransparentFX
