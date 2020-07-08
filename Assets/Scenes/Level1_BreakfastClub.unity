@@ -9038,7 +9038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: {fileID: 204653976}
   VictoryNotif: {fileID: 655159930}
-  player: {fileID: 829290630}
+  player: {fileID: 1917860791}
 --- !u!65 &1707950508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10137,7 +10137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameIsPaused: 0
-  Player: {fileID: 829290630}
+  Player: {fileID: 1917860791}
   PauseMenuUI: {fileID: 672507677}
 --- !u!1001 &2004388536
 Prefab:

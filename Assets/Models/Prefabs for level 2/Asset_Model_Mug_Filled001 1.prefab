@@ -127,6 +127,6 @@ MonoBehaviour:
   item: {fileID: 1037107477388840}
   tempParent: {fileID: 0}
   guide: {fileID: 0}
-  player: {fileID: 1787406395837676, guid: b1967969358581f4f80e97fa375b0a47, type: 2}
+  player: {fileID: 1835200384430358, guid: d641a28c48065ed408e243b8e485f920, type: 2}
   originalPos: {x: 0, y: 0, z: 0}
   originalRot: {x: 0, y: 0, z: 0, w: 0}

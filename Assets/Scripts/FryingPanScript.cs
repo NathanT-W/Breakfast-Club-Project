@@ -21,12 +21,10 @@ public class FryingPanScript : MonoBehaviour {
                 Col.tag = "cookedEgg";
                 Col.GetComponent<MeshRenderer>().material = cookedEgg;
                 Col.GetComponent<MeshFilter>().mesh = cookedEggMesh;
-                Instantiate(Col, originalPosition, originalRotation);
                 break;
             case "Bacon":
                 Col.tag = "cookedBacon";
                 Col.GetComponent<MeshRenderer>().material = cookedBacon;
-                Instantiate(Col, originalPosition, originalRotation);
                 break;
                 
         }
