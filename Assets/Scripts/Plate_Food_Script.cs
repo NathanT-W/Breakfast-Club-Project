@@ -14,14 +14,19 @@ public class Plate_Food_Script : MonoBehaviour {
         public GameObject Bacon;
         public bool toast;
         public GameObject Toast;
+        public bool tea;
+        public GameObject Tea;
     };
 
     public Food food;
 
     // Use this for initialization
     void Start () {
-
-	}
+        food.egg = false;
+        food.bacon = false;
+        food.toast = false;
+        food.tea = false;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -38,6 +43,10 @@ public class Plate_Food_Script : MonoBehaviour {
         if (food.toast == true)
         {
             food.Toast.transform.parent = plate.transform;
+        }
+        if (food.tea == true)
+        {
+            food.Tea.transform.parent = plate.transform;
         }
     }
 
@@ -64,6 +73,15 @@ public class Plate_Food_Script : MonoBehaviour {
                 food.Bacon = Col.gameObject;
                 food.Bacon.GetComponent<Rigidbody>().isKinematic = true;
                 Destroy(food.Bacon.GetComponent<PickupItems>());
+                break;
+            case "EmptyCup":
+            case "TeaCup":
+            case "MilkCup":
+            case "FinishedCup":
+                food.tea = true;
+                food.Tea = Col.gameObject;
+                food.Tea.GetComponent<Rigidbody>().isKinematic = true;
+                Destroy(food.Tea.GetComponent<PickupItems>());
                 break;
         }
     }
