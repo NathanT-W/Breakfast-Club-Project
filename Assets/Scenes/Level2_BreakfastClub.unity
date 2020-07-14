@@ -3508,7 +3508,7 @@ Prefab:
         type: 2}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 861794288}
     - target: {fileID: 1909642859388606, guid: d7e675aebf068534e8daadf5bc0b5e51, type: 2}
       propertyPath: m_Name
       value: Asset_Food_Model_Egg001 (3)
