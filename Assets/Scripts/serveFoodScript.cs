@@ -58,7 +58,7 @@ public class serveFoodScript : MonoBehaviour {
         {
             if (Col.GetComponent<Plate_Food_Script>().food.toast == true && Col.GetComponent<Plate_Food_Script>().food.tea == true)
             {
-                if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Toast.tag, "Toast") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Tea.tag, "FinishedCup") && flag1 == false)
+                if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Toast.tag, "Toast") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Tea.tag, "FinishedCup"))
                 {
                     flag1 = true;
                 }
@@ -71,7 +71,7 @@ public class serveFoodScript : MonoBehaviour {
                     Application.LoadLevel("MainMenu");
                 }
             }
-            else if (Col.GetComponent<Plate_Food_Script>().food.bacon == true && Col.GetComponent<Plate_Food_Script>().food.egg == true && flag2 == false)
+            else if (Col.GetComponent<Plate_Food_Script>().food.bacon == true && Col.GetComponent<Plate_Food_Script>().food.egg == true)
             {
                 if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Bacon.tag, "cookedBacon") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Egg.tag, "cookedEgg"))
                 {
