@@ -10,6 +10,18 @@ TagManager:
   - ShowOnPause
   - cookedBacon
   - cookedEgg
+  - Level1
+  - Level2
+  - bread
+  - TeaCup
+  - MilkCup
+  - TeaMug
+  - MilkMug
+  - EmptyMug
+  - FinishedCup
+  - FinishedMug
+  - EmptyCup
+  - Milk
   layers:
   - Default
   - TransparentFX

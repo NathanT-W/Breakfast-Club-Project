@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1_BreakfastClub.unity
     guid: a050de1d338cda64383382a6b8a2e6e3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Level2_BreakfastClub.unity
     guid: 329ab721a0f100c47bb8615a58b6696e
   - enabled: 0
