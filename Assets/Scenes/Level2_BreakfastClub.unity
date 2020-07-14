@@ -1492,6 +1492,11 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1396030337}
+    - target: {fileID: 114056280328663530, guid: 8cfc07ffcf3a456419cd2c255f2c8c30,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Resume
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8cfc07ffcf3a456419cd2c255f2c8c30, type: 2}
@@ -9831,9 +9836,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameIsPaused: 0
   timer: 59
-  Player: {fileID: 0}
-  FailMenuUI: {fileID: 0}
-  player: {fileID: 0}
+  Player: {fileID: 861794288}
+  FailMenuUI: {fileID: 2069420115}
+  player: {fileID: 861794288}
 --- !u!114 &881078888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19933,6 +19938,11 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1396030337}
+    - target: {fileID: 114247662037288662, guid: e67c97400e174c147acdac45a7c5e22a,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetLevel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e67c97400e174c147acdac45a7c5e22a, type: 2}
@@ -26875,6 +26885,54 @@ Rigidbody:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: ae176dac9c458a5489b654c6cce47696, type: 3}
   m_PrefabInternal: {fileID: 1012327039}
+--- !u!1 &2094678473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2094678475}
+  - component: {fileID: 2094678474}
+  m_Layer: 5
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2094678474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2094678473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3830f214adc1ce24186a5421a2229c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameIsPaused: 0
+  Player: {fileID: 861794288}
+  PauseMenuUI: {fileID: 1396030336}
+--- !u!224 &2094678475
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2094678473}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2098540943
 GameObject:
   m_ObjectHideFlags: 0
