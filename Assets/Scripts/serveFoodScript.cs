@@ -8,11 +8,13 @@ public class ServeFoodScript : MonoBehaviour {
 
     bool flag1 = false;
     bool flag2 = false;
-    bool Note1 = true;     // notes are gives objects to the player, they're on by default//
-    bool Note2 = true;
+  
     public GameObject timer;
     public GameObject VictoryNotif;
     public GameObject player;
+
+    public GameObject Note1;     // notes are gives objects to the player, they're on by default. Deividas Vengalis//
+    public GameObject Note2;
 
     void Update()
     {
@@ -63,7 +65,7 @@ public class ServeFoodScript : MonoBehaviour {
                 if (string.Equals(Col.GetComponent<PlateFoodScript>().food.Toast.tag, "Toast") && string.Equals(Col.GetComponent<PlateFoodScript>().food.Tea.tag, "FinishedCup"))
                 {
                     flag1 = true;
-                    Note1 = false; // objective is done. //
+                    Note1.SetActive(false); // objective is done. //
                 }
                 else
                 {
@@ -79,7 +81,7 @@ public class ServeFoodScript : MonoBehaviour {
                 if (string.Equals(Col.GetComponent<PlateFoodScript>().food.Bacon.tag, "cookedBacon") && string.Equals(Col.GetComponent<PlateFoodScript>().food.Egg.tag, "cookedEgg"))
                 {
                     flag2 = true;
-                    Note2 = false; 
+                    Note2.SetActive(false);
                 }
                 else
                 {
