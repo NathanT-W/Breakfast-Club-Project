@@ -3682,7 +3682,7 @@ Prefab:
         type: 2}
       propertyPath: tempParent
       value: 
-      objectReference: {fileID: 861794288}
+      objectReference: {fileID: 595451189}
     - target: {fileID: 114920481979807324, guid: d7e675aebf068534e8daadf5bc0b5e51,
         type: 2}
       propertyPath: guide
@@ -16495,6 +16495,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9640c2bd72bc8f44b0bb35732544b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 881078885}
+  VictoryNotif: {fileID: 1800465521}
+  player: {fileID: 861794288}
 --- !u!65 &1245124825
 BoxCollider:
   m_ObjectHideFlags: 0
