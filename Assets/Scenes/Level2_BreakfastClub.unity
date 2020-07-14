@@ -9831,9 +9831,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameIsPaused: 0
   timer: 59
-  Player: {fileID: 0}
-  FailMenuUI: {fileID: 0}
-  player: {fileID: 0}
+  Player: {fileID: 861794288}
+  FailMenuUI: {fileID: 2069420115}
+  player: {fileID: 861794288}
 --- !u!114 &881078888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17242,7 +17242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameIsPaused: 0
-  Player: {fileID: 0}
+  Player: {fileID: 861794288}
   PauseMenuUI: {fileID: 1396030336}
 --- !u!114 &1396030338
 MonoBehaviour:
