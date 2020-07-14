@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
 
-public class serveFoodScript : MonoBehaviour {
+public class ServeFoodScript : MonoBehaviour {
 
     bool flag1 = false;
     bool flag2 = false;
@@ -31,9 +31,9 @@ public class serveFoodScript : MonoBehaviour {
     {
         if (gameObject.tag == "Level1")
         {
-            if (Col.GetComponent<Plate_Food_Script>().food.egg == true && Col.GetComponent<Plate_Food_Script>().food.bacon == true)
+            if (Col.GetComponent<PlateFoodScript>().food.egg == true && Col.GetComponent<PlateFoodScript>().food.bacon == true)
             {
-                if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Egg.tag, "cookedEgg") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Bacon.tag, "cookedBacon"))
+                if (string.Equals(Col.GetComponent<PlateFoodScript>().food.Egg.tag, "cookedEgg") && string.Equals(Col.GetComponent<PlateFoodScript>().food.Bacon.tag, "cookedBacon"))
                 {
                     flag1 = true;
                     flag2 = true;
@@ -58,9 +58,9 @@ public class serveFoodScript : MonoBehaviour {
         }
         else if(gameObject.tag == "Level2")
         {
-            if (Col.GetComponent<Plate_Food_Script>().food.toast == true && Col.GetComponent<Plate_Food_Script>().food.tea == true)
+            if (Col.GetComponent<PlateFoodScript>().food.toast == true && Col.GetComponent<PlateFoodScript>().food.tea == true)
             {
-                if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Toast.tag, "Toast") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Tea.tag, "FinishedCup"))
+                if (string.Equals(Col.GetComponent<PlateFoodScript>().food.Toast.tag, "Toast") && string.Equals(Col.GetComponent<PlateFoodScript>().food.Tea.tag, "FinishedCup"))
                 {
                     flag1 = true;
                     Note1 = false; // objective is done. //
@@ -74,9 +74,9 @@ public class serveFoodScript : MonoBehaviour {
                     Application.LoadLevel("MainMenu");
                 }
             }
-            else if (Col.GetComponent<Plate_Food_Script>().food.bacon == true && Col.GetComponent<Plate_Food_Script>().food.egg == true)
+            else if (Col.GetComponent<PlateFoodScript>().food.bacon == true && Col.GetComponent<PlateFoodScript>().food.egg == true)
             {
-                if (string.Equals(Col.GetComponent<Plate_Food_Script>().food.Bacon.tag, "cookedBacon") && string.Equals(Col.GetComponent<Plate_Food_Script>().food.Egg.tag, "cookedEgg"))
+                if (string.Equals(Col.GetComponent<PlateFoodScript>().food.Bacon.tag, "cookedBacon") && string.Equals(Col.GetComponent<PlateFoodScript>().food.Egg.tag, "cookedEgg"))
                 {
                     flag2 = true;
                     Note2 = false; 
