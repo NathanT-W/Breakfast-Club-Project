@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Plate_Food_Script : MonoBehaviour {
+public class PlateFoodScript : MonoBehaviour {
 
     public GameObject plate;
 
