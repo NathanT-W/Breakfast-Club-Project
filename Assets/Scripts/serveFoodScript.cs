@@ -11,6 +11,7 @@ public class ServeFoodScript : MonoBehaviour {
   
     public GameObject timer;
     public GameObject VictoryNotif;
+    public GameObject failNotif;
     public GameObject player;
 
     public GameObject Note1;     // notes are gives objects to the player, they're on by default. Deividas Vengalis//
@@ -20,6 +21,7 @@ public class ServeFoodScript : MonoBehaviour {
     {
         if (flag1 == true && flag2 == true)
         {
+            Time.timeScale = 0f;
             timer.GetComponent<TimerCountdown>().enabled = false;
             player.GetComponent<FirstPersonController>().enabled = false;
             Cursor.lockState = CursorLockMode.None;
@@ -42,20 +44,23 @@ public class ServeFoodScript : MonoBehaviour {
                 }
                 else
                 {
-                    Time.timeScale = 1f;
+                    Time.timeScale = 0f;
+                    timer.GetComponent<TimerCountdown>().enabled = false;
                     player.GetComponent<FirstPersonController>().enabled = false;
                     Cursor.lockState = CursorLockMode.None;
                     Cursor.visible = true;
-                    Application.LoadLevel("MainMenu");
+                    failNotif.SetActive(true);
+
                 }
             }
             else
             {
-                Time.timeScale = 1f;
+                Time.timeScale = 0f;
+                timer.GetComponent<TimerCountdown>().enabled = false;
                 player.GetComponent<FirstPersonController>().enabled = false;
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
-                Application.LoadLevel("MainMenu");
+                failNotif.SetActive(true);
             }
         }
         else if(gameObject.tag == "Level2")
@@ -69,11 +74,12 @@ public class ServeFoodScript : MonoBehaviour {
                 }
                 else
                 {
-                    Time.timeScale = 1f;
+                    Time.timeScale = 0f;
+                    timer.GetComponent<TimerCountdown>().enabled = false;
                     player.GetComponent<FirstPersonController>().enabled = false;
                     Cursor.lockState = CursorLockMode.None;
                     Cursor.visible = true;
-                    Application.LoadLevel("MainMenu");
+                    failNotif.SetActive(true);
                 }
             }
             else if (Col.GetComponent<PlateFoodScript>().food.bacon == true && Col.GetComponent<PlateFoodScript>().food.egg == true)
@@ -85,20 +91,22 @@ public class ServeFoodScript : MonoBehaviour {
                 }
                 else
                 {
-                    Time.timeScale = 1f;
+                    Time.timeScale = 0f;
+                    timer.GetComponent<TimerCountdown>().enabled = false;
                     player.GetComponent<FirstPersonController>().enabled = false;
                     Cursor.lockState = CursorLockMode.None;
                     Cursor.visible = true;
-                    Application.LoadLevel("MainMenu");
+                    failNotif.SetActive(true);
                 }
             }
             else
             {
-                Time.timeScale = 1f;
+                Time.timeScale = 0f;
+                timer.GetComponent<TimerCountdown>().enabled = false;
                 player.GetComponent<FirstPersonController>().enabled = false;
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
-                Application.LoadLevel("MainMenu");
+                failNotif.SetActive(true);
             }
         }
 
