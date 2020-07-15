@@ -10,9 +10,8 @@ public class TimerCountdown : MonoBehaviour
     public bool GameIsPaused = false;
     public float timer = 59f;
     private Text timerSeconds;
-    public GameObject Player;
-    public GameObject FailMenuUI;
     public GameObject player;
+    public GameObject failUi;
 
     // Use this for initialization
     void Start()
@@ -28,11 +27,12 @@ public class TimerCountdown : MonoBehaviour
         if (timer <= 0)
         {
 
-            Time.timeScale = 1f;
+            Time.timeScale = 0f;
             player.GetComponent<FirstPersonController>().enabled = false;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            Application.LoadLevel("MainMenu");
+            failUi.SetActive(true);
+            GetComponent<TimerCountdown>().enabled = false;
 
         }
 
