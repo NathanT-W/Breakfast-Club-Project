@@ -10647,7 +10647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameIsPaused: 0
-  timer: 59
+  timer: 120
   player: {fileID: 861794288}
   failUi: {fileID: 1177333613}
 --- !u!114 &881078888
@@ -10682,7 +10682,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 59
+  m_Text: 120
 --- !u!222 &881078889
 CanvasRenderer:
   m_ObjectHideFlags: 0
