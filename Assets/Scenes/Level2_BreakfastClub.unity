@@ -16463,7 +16463,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1245124823}
   - component: {fileID: 1245124825}
-  - component: {fileID: 1245124824}
   m_Layer: 0
   m_Name: WinBox
   m_TagString: Level2
@@ -16484,24 +16483,6 @@ Transform:
   m_Father: {fileID: 1798318600}
   m_RootOrder: 190
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1245124824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1245124822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9640c2bd72bc8f44b0bb35732544b05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flag1: 0
-  flag2: 0
-  Note1: 1
-  Note2: 1
-  timer: {fileID: 0}
-  VictoryNotif: {fileID: 0}
-  player: {fileID: 0}
 --- !u!65 &1245124825
 BoxCollider:
   m_ObjectHideFlags: 0
