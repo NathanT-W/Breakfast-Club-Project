@@ -13,6 +13,9 @@ public class ToasterScript : MonoBehaviour {
 
         switch (Col.gameObject.tag)
         {
+            
+            // Make the texture of the break darker, to make it look cooked, and change the tag.
+
             case "bread":
                 Col.gameObject.GetComponent<Renderer>().material.color = Color.grey;
                 Col.gameObject.tag = "Toast";

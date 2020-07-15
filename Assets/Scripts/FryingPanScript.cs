@@ -17,6 +17,9 @@ public class FryingPanScript : MonoBehaviour {
 
         switch (Col.gameObject.tag)
         {
+
+            // Swap food with cooked version of food
+
             case "Egg":                
                 Col.tag = "cookedEgg";
                 Col.GetComponent<MeshRenderer>().material = cookedEgg;

@@ -29,6 +29,9 @@ public class PlateFoodScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        // Move all attached objects with the plate
+
         if(food.egg == true)
         {
             food.Egg.transform.parent = plate.transform;
@@ -52,6 +55,9 @@ public class PlateFoodScript : MonoBehaviour {
     void OnTriggerEnter(Collider Col) {
         switch (Col.gameObject.tag)
         {
+
+            // Attach the food to the plate, and store the gameobject in the relevant variable.
+
             case "bread":
             case "Toast":
                 food.toast = true;
