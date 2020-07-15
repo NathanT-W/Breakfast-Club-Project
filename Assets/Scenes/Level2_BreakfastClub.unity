@@ -708,7 +708,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 2714b904429e6024c84f1efc0037d991, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0e32f358b2b96694dac38b176143d172, type: 2}
+      objectReference: {fileID: 2100000, guid: c34da6dbb83aae9478e33b6e6aa5a8a1, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2714b904429e6024c84f1efc0037d991, type: 3}
   m_IsPrefabParent: 0
@@ -16672,12 +16672,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9640c2bd72bc8f44b0bb35732544b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: {fileID: 881078885}
-  VictoryNotif: {fileID: 1800465521}
-  failNotif: {fileID: 1177333613}
-  player: {fileID: 861794288}
-  Note1: {fileID: 1391156437}
-  Note2: {fileID: 168341872}
 --- !u!65 &1245124825
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25313,6 +25307,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7a4981229cdd111459e20e6cb960d1ad, type: 2}
+    - target: {fileID: 2300000, guid: b55f3999f24c744419786157c0149b4e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 428c3f620d63e164a83a1c853f686c52, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b55f3999f24c744419786157c0149b4e, type: 3}
   m_IsPrefabParent: 0
