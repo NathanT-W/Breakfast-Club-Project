@@ -2050,7 +2050,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: [{fileID: 1450650377}]
+  m_Children:
+  - {fileID: 1450650377}
   m_Father: {fileID: 2069420119}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12193,15 +12194,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4945405584913394, guid: d641a28c48065ed408e243b8e485f920, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.2861316
+      value: 2.099
       objectReference: {fileID: 0}
     - target: {fileID: 4945405584913394, guid: d641a28c48065ed408e243b8e485f920, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.5328292
+      value: 0.89
       objectReference: {fileID: 0}
     - target: {fileID: 4945405584913394, guid: d641a28c48065ed408e243b8e485f920, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.052
+      value: -6.035
       objectReference: {fileID: 0}
     - target: {fileID: 4945405584913394, guid: d641a28c48065ed408e243b8e485f920, type: 2}
       propertyPath: m_LocalRotation.x
@@ -16639,6 +16640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1245124823}
   - component: {fileID: 1245124825}
+  - component: {fileID: 1245124824}
   m_Layer: 0
   m_Name: WinBox
   m_TagString: Level2
@@ -16659,6 +16661,23 @@ Transform:
   m_Father: {fileID: 1798318600}
   m_RootOrder: 190
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1245124824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1245124822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9640c2bd72bc8f44b0bb35732544b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 881078885}
+  VictoryNotif: {fileID: 1800465521}
+  failNotif: {fileID: 1177333613}
+  player: {fileID: 861794288}
+  Note1: {fileID: 1391156437}
+  Note2: {fileID: 168341872}
 --- !u!65 &1245124825
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18802,7 +18821,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: [{fileID: 1542113538}]
+  m_Children:
+  - {fileID: 1542113538}
   m_Father: {fileID: 2069420119}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

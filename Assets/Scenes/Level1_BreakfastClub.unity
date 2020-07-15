@@ -3551,8 +3551,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1687742225}
   - {fileID: 1494907731}
+  - {fileID: 1687742225}
   m_Father: {fileID: 215712581}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4043,7 +4043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameIsPaused: 0
-  Player: {fileID: 0}
+  Player: {fileID: 1917860791}
   PauseMenuUI: {fileID: 672507677}
 --- !u!1 &711195998
 GameObject:
@@ -7759,7 +7759,7 @@ Prefab:
     - target: {fileID: 224675391573157044, guid: 8cfc07ffcf3a456419cd2c255f2c8c30,
         type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224675391573157044, guid: 8cfc07ffcf3a456419cd2c255f2c8c30,
         type: 2}
@@ -8880,7 +8880,7 @@ Prefab:
     - target: {fileID: 224507206141451438, guid: e67c97400e174c147acdac45a7c5e22a,
         type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224507206141451438, guid: e67c97400e174c147acdac45a7c5e22a,
         type: 2}
