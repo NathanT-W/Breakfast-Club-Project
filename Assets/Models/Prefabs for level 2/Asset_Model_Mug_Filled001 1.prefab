@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 114955860258610688}
   - component: {fileID: 65236142388453512}
   - component: {fileID: 54157635771601890}
+  - component: {fileID: 114220019632583982}
+  - component: {fileID: 65963618771681032}
   m_Layer: 0
   m_Name: Asset_Model_Mug_Filled001 1
   m_TagString: TeaMug
@@ -113,6 +115,37 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.23070002, y: 0.1581, z: 0.1474}
   m_Center: {x: -0.04165, y: 0.07905, z: 0}
+--- !u!65 &65963618771681032
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037107477388840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.23070002, y: 0.1581, z: 0.1474}
+  m_Center: {x: -0.04165, y: 0.07905, z: 0}
+--- !u!114 &114220019632583982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037107477388840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82e6039056610f439fdf72057f04060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  milkCupMesh: {fileID: 0}
+  milkCup: {fileID: 0}
+  finishedCupMesh: {fileID: 0}
+  finishedCup: {fileID: 0}
+  milkMugMesh: {fileID: 0}
+  milkMug: {fileID: 0}
+  finishedMugMesh: {fileID: 4300000, guid: b5a55518d6b9c134daae6719fc5a6450, type: 3}
+  finishedMug: {fileID: 2100000, guid: 6b5b4f70f9e76e2449e7888eb5623805, type: 2}
 --- !u!114 &114955860258610688
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -33,6 +33,9 @@ public class ServeFoodScript : MonoBehaviour {
 
     void OnTriggerEnter(Collider Col)
     {
+
+        // Check which level it is
+
         if (gameObject.tag == "Level1")
         {
             if (Col.GetComponent<PlateFoodScript>().food.egg == true && Col.GetComponent<PlateFoodScript>().food.bacon == true)
@@ -44,6 +47,9 @@ public class ServeFoodScript : MonoBehaviour {
                 }
                 else
                 {
+
+                    // Display fail ui
+
                     Time.timeScale = 0f;
                     timer.GetComponent<TimerCountdown>().enabled = false;
                     player.GetComponent<FirstPersonController>().enabled = false;
@@ -55,6 +61,9 @@ public class ServeFoodScript : MonoBehaviour {
             }
             else
             {
+
+                // Display fail ui
+
                 Time.timeScale = 0f;
                 timer.GetComponent<TimerCountdown>().enabled = false;
                 player.GetComponent<FirstPersonController>().enabled = false;
@@ -74,6 +83,9 @@ public class ServeFoodScript : MonoBehaviour {
                 }
                 else
                 {
+
+                    // Display fail ui
+
                     Time.timeScale = 0f;
                     timer.GetComponent<TimerCountdown>().enabled = false;
                     player.GetComponent<FirstPersonController>().enabled = false;
@@ -91,6 +103,9 @@ public class ServeFoodScript : MonoBehaviour {
                 }
                 else
                 {
+
+                    // Display fail ui
+
                     Time.timeScale = 0f;
                     timer.GetComponent<TimerCountdown>().enabled = false;
                     player.GetComponent<FirstPersonController>().enabled = false;
@@ -101,6 +116,9 @@ public class ServeFoodScript : MonoBehaviour {
             }
             else
             {
+
+                // Display fail ui
+
                 Time.timeScale = 0f;
                 timer.GetComponent<TimerCountdown>().enabled = false;
                 player.GetComponent<FirstPersonController>().enabled = false;

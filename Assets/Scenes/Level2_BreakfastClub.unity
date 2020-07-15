@@ -6094,6 +6094,10 @@ MonoBehaviour:
   milkCup: {fileID: 2100000, guid: 41b77d24a690b0546b1b5eb1e4d69cc3, type: 2}
   finishedCupMesh: {fileID: 0}
   finishedCup: {fileID: 0}
+  milkMugMesh: {fileID: 0}
+  milkMug: {fileID: 0}
+  finishedMugMesh: {fileID: 0}
+  finishedMug: {fileID: 0}
 --- !u!65 &526611659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16672,6 +16676,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9640c2bd72bc8f44b0bb35732544b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 0}
+  VictoryNotif: {fileID: 0}
+  failNotif: {fileID: 0}
+  player: {fileID: 0}
+  Note1: {fileID: 0}
+  Note2: {fileID: 0}
 --- !u!65 &1245124825
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22707,6 +22717,8 @@ GameObject:
   - component: {fileID: 1599910342}
   - component: {fileID: 1599910341}
   - component: {fileID: 1599910338}
+  - component: {fileID: 1599910344}
+  - component: {fileID: 1599910343}
   m_Layer: 0
   m_Name: Asset_Model_Mug001 (1)
   m_TagString: EmptyMug
@@ -22815,6 +22827,37 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.22487253, y: 0.15255737, z: 0.15807621}
   m_Center: {x: -0.000000026077037, y: 0.00000062584877, z: 0.000000014901163}
+--- !u!65 &1599910343
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1599910336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.24899825, y: 0.17965768, z: 0.21620078}
+  m_Center: {x: 0.012062842, y: -0.0062145893, z: 0.029062303}
+--- !u!114 &1599910344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1599910336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82e6039056610f439fdf72057f04060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  milkCupMesh: {fileID: 0}
+  milkCup: {fileID: 0}
+  finishedCupMesh: {fileID: 0}
+  finishedCup: {fileID: 0}
+  milkMugMesh: {fileID: 4300000, guid: b5a55518d6b9c134daae6719fc5a6450, type: 3}
+  milkMug: {fileID: 2100000, guid: 41b77d24a690b0546b1b5eb1e4d69cc3, type: 2}
+  finishedMugMesh: {fileID: 0}
+  finishedMug: {fileID: 0}
 --- !u!1 &1616580123
 GameObject:
   m_ObjectHideFlags: 0

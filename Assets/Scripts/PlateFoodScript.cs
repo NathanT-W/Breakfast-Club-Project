@@ -20,7 +20,6 @@ public class PlateFoodScript : MonoBehaviour {
 
     public Food food;
 
-    // Use this for initialization
     void Start () {
         food.egg = false;
         food.bacon = false;

@@ -12,14 +12,11 @@ public class PickupItems : MonoBehaviour {
     public Vector3 originalPos;
     public Quaternion originalRot;
 
-    void start()
-    {
-
-    }
-
     void OnMouseDown() {
         if(player.GetComponent<FirstPersonController>().pickedUp == false)
         {
+            // Attach object to guide, infront of player
+
             item.GetComponent<Rigidbody>().useGravity = false;
             item.GetComponent<Rigidbody>().isKinematic = true;
             item.transform.position = guide.transform.position;
@@ -31,6 +28,9 @@ public class PickupItems : MonoBehaviour {
     void OnMouseUp() {
         if (player.GetComponent<FirstPersonController>().pickedUp == true)
         {
+
+            // Detach object
+
             item.GetComponent<Rigidbody>().useGravity = true;
             item.GetComponent<Rigidbody>().isKinematic = false;
             item.transform.parent = null;

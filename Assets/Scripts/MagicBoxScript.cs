@@ -19,6 +19,8 @@ public class MagicBoxScript : MonoBehaviour {
         GameObject temp = guide;
         switch (col.gameObject.tag)
         {
+            // Spawn a new cup. If there was milk in the original cup, spawn a finished cup, otherwise a non milky cup of tea.
+
             case "EmptyCup":
                temp = Instantiate(nonMilkyTeaCup, spawnPoint, spawnRotation);
                 break;
