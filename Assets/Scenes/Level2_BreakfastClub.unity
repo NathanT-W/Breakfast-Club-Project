@@ -16676,12 +16676,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9640c2bd72bc8f44b0bb35732544b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: {fileID: 0}
-  VictoryNotif: {fileID: 0}
-  failNotif: {fileID: 0}
-  player: {fileID: 0}
-  Note1: {fileID: 0}
-  Note2: {fileID: 0}
+  timer: {fileID: 881078885}
+  VictoryNotif: {fileID: 1800465521}
+  failNotif: {fileID: 1177333613}
+  player: {fileID: 861794288}
+  Note1: {fileID: 1391156437}
+  Note2: {fileID: 168341872}
 --- !u!65 &1245124825
 BoxCollider:
   m_ObjectHideFlags: 0
